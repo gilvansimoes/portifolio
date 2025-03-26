@@ -121,7 +121,7 @@
                         {
                             "title" : "Suporte Técnico",
                             "year" : "2012",
-                            "description" : "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
+                            "description" : "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidores NVR e câmeras IP, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
                         },
                         {
                             "title" : "C e C++",
@@ -299,7 +299,7 @@
                         {
                             "title" : "Technical Support",
                             "year" : "2012",
-                            "description" : "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
+                            "description" : "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, NVR servers and IP cameras, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
                         },
                         {
                             "title" : "C and C++",
@@ -477,7 +477,7 @@
                         {
                             "title" : "Apoyo Técnico",
                             "year" : "2012",
-                            "description" : "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
+                            "description" : "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidores NVR y cámaras IP, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
                         },
                         {
                             "title" : "C y C++",
@@ -655,7 +655,7 @@
                         {
                             "title" : "Support Technique",
                             "year" : "2012",
-                            "description" : "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
+                            "description" : "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, serveurs NVR et caméras IP, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
                         },
                         {
                             "title" : "C et C++",
