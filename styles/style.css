@@ -237,10 +237,10 @@ h1 span::before {
     padding: 2% 5%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 40px;
     position: relative;
-    height: 84%;
+    height: 100%;
 }
 .main__about {
     padding: 2% 2%;
@@ -248,7 +248,7 @@ h1 span::before {
     justify-content: space-between;
     gap: 10px;
     position: relative;
-    height: 84%;
+    height: 100%;
 }
 .main__content {
     width: 50%;
@@ -346,7 +346,6 @@ footer{
     background: var(--preto_1-color);
     width: 100%;
     height: 32px;
-    position: absolute;
     text-align: center;
     font-family: var(--montserrat-font);
     color: var(--branco-color);
@@ -646,12 +645,12 @@ body.night .timeline__right > div {
     .main {
         flex-direction: column-reverse;
         padding: 2%;
-        height: 86%;
+        height: 100%;
     }
     .main__about {
         flex-direction: column;
         gap: 0;
-        height: 84%;
+        height: 100%;
     }
     .main__content__about {
         width: auto;
@@ -733,7 +732,7 @@ body.night .timeline__right > div {
     }
     .button {
         right: -3px !important;
-        bottom: 7.5% !important;
+        bottom: 0% !important;
     }
     .allContent {
         height: 100%;
