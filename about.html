@@ -5,54 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Sobre mim</title>
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" type="text/css" href="./styles/links.css"></link>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <div class="div_cab">
-                <a class="cabecalho__menu__link" href="index.html" id="home"></a>
+    <header class="header">
+        <nav class="nav">
+            <div class="index">
+                <a href="index.html" id="home"></a>
             </div>
-            <div class="div_cab">
-                <a class="cabecalho__menu__link" href="about.html" id="about"></a>
+            <div class="about">
+                <a href="about.html" id="about"></a>
             </div>
-            <div class="div_cab">
-                <a class="cabecalho__menu__link" href="project.html" id="project"></a>
+            <div class="project">    
+                <a href="project.html" id="project"></a>
             </div>
-        </nav>
-        <nav class="lang">
-            <div class="lang__center">
-                <div class="flag">
-                    <img src="./assets/bra.png" alt="Portugues" onclick="pt()" id="pt">
-                    <img src="./assets/usa.png" alt="Ingles" onclick="en()" id="en">
-                    <img src="./assets/esp.png" alt="Espanhol" onclick="es()" id="es">
-                    <img src="./assets/fra.png" alt="Frances" onclick="fr()" id="fr">
-                </div>
-                <div class="theme">
-                    <div class="toggle" id="toggle" onclick="toggleTheme()"></div>
-                </div>
+            <div class="lang flag">   
+                <img src="./assets/bra.png" alt="Portugues" onclick="pt()" id="pt">
+                <img src="./assets/usa.png" alt="Ingles" onclick="en()" id="en">
+                <img src="./assets/esp.png" alt="Espanhol" onclick="es()" id="es">
+                <img src="./assets/fra.png" alt="Frances" onclick="fr()" id="fr">
+            </div>
+            <div class="theme">
+                <div class="toggle" id="toggle" onclick="toggleTheme()"></div>
             </div>
         </nav>
     </header>
-    <main class="main__about" id="main__about">
-        <div class="superior__about">
-            <h1 class="main__content__titulo"><p id="main__content__titulo"></p></h1>
-            <section class="main__content__about">
-                <p class="main__content__paragrafo" id="about_1"></p>
-                <p class="main__content__paragrafo" id="about_2"></p>
-                <p class="main__content__paragrafo" id="about_3"></p>
-                <p class="main__content__paragrafo" id="about_4"></p>
-                <p class="main__content__paragrafo" id="about_5"></p>
+    <main class="aboutMain" id="main__about">
+        <div class="aboutContent">
+            <h1 class="aboutTitle"><p id="main__content__titulo"></p></h1>
+            <section class="sectionAbout">
+                <p class="aboutContent_paragrafo" id="about_1"></p>
+                <p class="aboutContent_paragrafo" id="about_2"></p>
+                <p class="aboutContent_paragrafo" id="about_3"></p>
+                <p class="aboutContent_paragrafo" id="about_4"></p>
+                <p class="aboutContent_paragrafo" id="about_5"></p>
             </section>
         </div>
-        <div class="superior__about">
-            <h1 class="main__content__titulo"><p id="main__content__titulo_p"><div class="works"></div></p></h1>
-            <section class="main__content__about">
+        <div class="aboutContent">
+            <h1 class="aboutTitle"><p id="main__content__titulo_p"><div class="works"></div></p></h1>
+            <section class="sectionAbout">
                 
                 <div class="timeline" id="timeline">
-                    <div class="timeline__section"></div>
+                    <div class="timeline_section"></div>
                 </div>
             </section>
         </div>

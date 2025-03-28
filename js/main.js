@@ -409,12 +409,13 @@ function sendEmail(ptitulo, pEmail, pNome, pWhatsapp, pMessage, pSubmit) {
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
           backgroundImage: "url(./assets/gmail.svg)",
-          bottom: "3.5%",
-          right: "55%",
+          bottom: "2.5%",
+          right: "0",
           zIndex: "10",
           borderRadius: "0",
           boxShadow: "none",
-          filter: "drop-shadow(dimgray 0px 0px 6px)"
+          filter: "drop-shadow(dimgray 0px 0px 6px)",
+          display: "none"
         },
         input: {
           backgroundColor: "#d9edf7",
@@ -428,4 +429,23 @@ function sendEmail(ptitulo, pEmail, pNome, pWhatsapp, pMessage, pSubmit) {
         }
       }
     });
+}
+
+const main = document.getElementById("main");
+
+if (main) {
+    window.addEventListener("scroll", () => { 
+    const elemento = document.getElementById("formbutton-button");
+    const limite = 100; 
+  
+    const alturaTotal = document.documentElement.scrollHeight;
+    const alturaVisivel = window.innerHeight;
+    const posicaoScroll = window.scrollY;
+  
+    if (alturaTotal - (posicaoScroll + alturaVisivel) <= limite) {
+      elemento.style.display = "flex"; 
+    } else {
+      elemento.style.display = "none"; 
+    }
+  });
 }
