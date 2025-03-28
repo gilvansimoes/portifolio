@@ -53,7 +53,7 @@
                     "titulo_rede" : "Acesse minhas redes:"
                 },
                 {
-                    "footer" : "Desenvolvido por Gilvan Simões &copy;2025"
+                    "footer" : "Desenvolvido por Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
                     "ptitulo" : "Como posso ajudar?"
@@ -231,7 +231,7 @@
                     "titulo_rede" : "Access my networks:"
                 },
                 {
-                    "footer" : "Developed by Gilvan Simões"
+                    "footer" : "Developed by Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
                     "ptitulo" : "How can I help you?"
@@ -409,7 +409,7 @@
                     "titulo_rede" : "Accede a mis redes:"
                 },
                 {
-                    "footer" : "Desarrollado por Gilvan Simões"
+                    "footer" : "Desarrollado por Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
                     "ptitulo" : "¿Cómo puedo ayudar?"
@@ -587,7 +587,7 @@
                     "titulo_rede" : "Accéder à mes réseaux:"
                 },
                 {
-                    "footer" : "Développé par Gilvan Simões"
+                    "footer" : "Développé par Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
                     "ptitulo" : "Comment puis-je aider?"
