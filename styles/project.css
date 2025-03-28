@@ -1,0 +1,14 @@
+@media (max-width: 1200px) {
+    .nav a {
+        font-size: 1.5em;
+    }
+    .nav .lang {
+        gap: 10%;
+    }
+    .nav .toggle {
+        height: 25px;
+    }
+    .nav .toggle::before {
+        top: 20%;
+    }
+}

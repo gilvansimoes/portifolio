@@ -1,0 +1,220 @@
+.aboutMain {
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+.aboutContent {
+    width: 100%;
+    height: 80vh;
+}
+.aboutTitle {
+    width: 100%;
+    font-size: 1.25rem;
+    font-family: var(--krona_one-font);
+    margin-bottom: 1.3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-flow: row-reverse;
+    gap: 10px;
+}
+.sectionAbout {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: auto;
+    height: 84%;
+    box-shadow: 2px 2px 4px;
+    padding: 2%;
+    border-radius: 0 0 10px 10px;
+}
+.aboutContent_paragrafo {
+    font-size: 1.2rem;
+    font-family: var(--montserrat-font);
+    margin-bottom: 1em;
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------timeline-------------------------------------*/
+
+.timeline {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline::-webkit-scrollbar {
+    width: 8px;
+}
+.timeline::-webkit-scrollbar-track {
+    background: var(--titulo-color);
+}
+.timeline::-webkit-scrollbar-thumb {
+    background-color: var(--branco-color);
+    border-radius: 20px;
+    border: 3px solid var(--selecionado-color);
+}
+
+.timeline__section {
+    display: grid;
+    grid-template-columns: auto 7px 7px auto;
+    align-items: start;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    padding: 0px 1px;
+    box-shadow: .6px .6px 1px;
+}
+
+.timeline__left {
+    font-size: 2.5rem;
+    text-align: right;
+    text-transform: uppercase;
+    width: 145px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.timeline__left,
+.timeline__middle,
+.timeline__tracker {
+    position: sticky;
+    top: 5px;
+}
+
+.timeline__left,
+.timeline__middle {
+    margin-bottom: var(--buffer);
+}
+
+.timeline__right {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(128, 128, 128, 1) 0%,
+      rgba(128, 128, 128, 1) 100%
+    );
+}
+
+.timeline__right > div {
+    padding-bottom: var(--buffer);
+    padding-left: 10px;
+    margin-left: 4px;
+}
+
+.timeline__date > div:first-child {
+    font-size: 0.33em;
+    margin: .6em;
+}
+
+.timeline__bullet {
+    --bullet-dims: 24px;
+    box-shadow: 1px 1px 1px;
+    background-color: var(--color-white);
+    width: var(--bullet-dims);
+    height: var(--bullet-dims);
+    border-radius: 99999%;
+    transform: translateX(calc(var(--bullet-dims) / 2 + 2px));
+    float: right;
+}
+
+.timeline__content {
+    color: var(--color-grey);
+    transition: color 1s cubic-bezier(0, 0.39, 0.58, 1);
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: -0.05em;
+    font-size: 110%;
+    padding: .7em 1em;
+    font-family: var(--montserrat-font);
+    text-indent: 2em;
+}
+
+.timeline__title {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.timeline__dates {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: end;
+}
+
+.animate-on-scroll {
+    color: var(--color-white);
+}
+
+.study {
+    background-color: var(--branco-color);
+}
+
+.work {
+    background-color: var(--dfdcdc);
+}
+.works {
+    background-color: var(--dfdcdc);
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+@media (max-width: 1200px) {
+    .nav a {
+        font-size: 1.5em;
+    }
+    .nav .lang {
+        gap: 10%;
+    }
+    .nav .toggle {
+        height: 25px;
+    }
+    .nav .toggle::before {
+        top: 20%;
+    }
+    .aboutMain {
+        flex-direction: column;
+        gap: 0;
+    }
+    .sectionAbout{
+        width: auto;
+        padding: 0.5em 0.8em;
+        text-align: justify;
+        hyphens: auto;
+        word-spacing: -0.05em;
+        font-size: 110%;
+        box-shadow: 2px 2px 4px;
+    }
+    .aboutContent {
+        width: 100%;
+        height: 35em;
+        padding: 0 1px;
+        margin-bottom: -2em;
+    }
+    .aboutTitle {
+        padding: .2em 0;
+        box-shadow: 0px 1px 4px;
+        margin-bottom: 2px;
+        border-radius: 10px 10px 0 0;
+    }
+    .timeline__left {
+        width: 90px;
+    }
+}
