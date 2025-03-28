@@ -443,7 +443,7 @@ if (main) {
     const posicaoScroll = window.scrollY;
   
     if (alturaTotal - (posicaoScroll + alturaVisivel) <= limite) {
-      elemento.style.display = "flex"; 
+      elemento.style.display = "block"; 
     } else {
       elemento.style.display = "none"; 
     }

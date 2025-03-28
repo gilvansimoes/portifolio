@@ -5,7 +5,7 @@
                 {
                     "nav" : [
                         {
-                            "home" : "InÍcio"
+                            "home" : "Início"
                         },
                         {
                             "about" : "Sobre mim"
@@ -53,7 +53,7 @@
                     "titulo_rede" : "Acesse minhas redes:"
                 },
                 {
-                    "footer" : "Desenvolvido por Gilvan Simões"
+                    "footer" : "Desenvolvido por Gilvan Simões &copy;2025"
                 },
                 {
                     "ptitulo" : "Como posso ajudar?"

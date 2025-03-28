@@ -115,7 +115,7 @@
 
 .timeline__right > div {
     padding-bottom: var(--buffer);
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     margin-left: 4px;
 }
 
@@ -195,11 +195,11 @@
     }
     .sectionAbout{
         width: auto;
-        padding: 0.5em 0.8em;
+        /*padding: 0.5em 0.8em;*/
         text-align: justify;
         hyphens: auto;
         word-spacing: -0.05em;
-        font-size: 110%;
+        font-size: 101%;
         box-shadow: 2px 2px 4px;
     }
     .aboutContent {
