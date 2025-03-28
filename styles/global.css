@@ -177,3 +177,9 @@ footer{
     margin: .09em;
     border-radius: 7px;
 }
+footer span {
+    font-size: .6em;
+    /* align-self: end; */
+    color: gold;
+    margin-left: 4px;
+}
