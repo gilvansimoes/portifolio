@@ -7,6 +7,11 @@
     gap: 12%;
     margin: .1em;
     border-radius: 7px;
+    box-shadow: inset 0px 0px 5px rgba(3, 3, 3, .2);
+    margin-bottom: .2em;
+    margin-top: .2em;
+    margin-left: .3em;
+    margin-right: .4em;
 }
 .main img {
     width: 35%;

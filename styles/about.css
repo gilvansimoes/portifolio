@@ -4,6 +4,7 @@
     justify-content: space-between;
     gap: 10px;
     position: relative;
+    border-radius: 7px;
 }
 .aboutContent {
     width: 100%;
