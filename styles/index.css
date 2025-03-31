@@ -31,6 +31,17 @@
     font-size: 1.6em;
     margin-top: 1.8em;
 }
+.curriculo .aCurriculo {
+    list-style: none;
+    height: 35px;
+    border: none;
+    width: 30%;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5em;
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
 .titul {
     overflow: hidden;
     width: 100%;
@@ -234,7 +245,7 @@ path {
         font-size: 1.5em;
     }
     .nav .lang {
-        gap: 10%;
+        gap: 6%;
     }
     .nav .toggle {
         height: 25px;
@@ -251,5 +262,9 @@ path {
     }
     path {
         display: none;
+    }
+    .curriculo .aCurriculo {
+        width: 80%;
+        font-size: 1.2em;
     }
 }    
