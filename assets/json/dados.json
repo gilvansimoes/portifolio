@@ -163,10 +163,14 @@
             ],
             "project": [
                 {
-                    "nome" : "2010"
+                    "title" : "Jogo do Numero Secreto",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
+                    "link" : "https://jogo-secreto-lyart.vercel.app/"
                 },
                 {
-                    "nome" : "2012"
+                    "title" : "Yu-Gi-Oh",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
+                    "link" : "https://yu-gi-oh-chi.vercel.app/"
                 },
                 {
                     "nome" : "2016"
@@ -341,10 +345,14 @@
             ],
             "project": [
                 {
-                    "nome" : "2010"
+                    "title" : "Game of Secret Number",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
+                    "link" : "https://jogo-secreto-lyart.vercel.app/"
                 },
                 {
-                    "nome" : "2012"
+                    "title" : "Yu-Gi-Oh",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
+                    "link" : "https://yu-gi-oh-chi.vercel.app/"
                 },
                 {
                     "nome" : "2016"
@@ -519,10 +527,14 @@
             ],
             "project": [
                 {
-                    "nome" : "2010"
+                    "title" : "Jogo do Numero Secreto",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
+                    "link" : "https://jogo-secreto-lyart.vercel.app/"
                 },
                 {
-                    "nome" : "2012"
+                    "title" : "Yu-Gi-Oh",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
+                    "link" : "https://yu-gi-oh-chi.vercel.app/"
                 },
                 {
                     "nome" : "2016"
@@ -697,10 +709,14 @@
             ],
             "project": [
                 {
-                    "nome" : "2010"
+                    "title" : "Jogo do Numero Secreto",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
+                    "link" : "https://jogo-secreto-lyart.vercel.app/"
                 },
                 {
-                    "nome" : "2012"
+                    "title" : "Yu-Gi-Oh",
+                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
+                    "link" : "https://yu-gi-oh-chi.vercel.app/"
                 },
                 {
                     "nome" : "2016"

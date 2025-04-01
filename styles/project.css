@@ -12,6 +12,24 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+.h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-html5 {
+  color: orange;
+}
+
+.fa-css3 {
+  color: blue;
+}
+
+.fa-js {
+  color: yellow;
+}
 
 .gallery-container h1 {
     text-align: center;
