@@ -318,7 +318,7 @@
                         {
                             "title" : "Web Development",
                             "year" : "2014",
-                            "description" : "Creation, maintenance of websites and internet applications with the HTML markup language and the mechanism that adds style, CSS, concepts of local servers such as Xampp and WampServ"
+                            "description" : "Creation, maintenance of websites and internet applications with the HTML markup language and the mechanism that adds style, CSS, concepts of local servers such as Nginx, Xampp and WampServ"
                         },
                         {
                             "title" : "PHP / Database",
@@ -500,7 +500,7 @@
                         {
                             "title" : "Desarrollo Web",
                             "year" : "2014",
-                            "description" : "Creación y mantenimiento de sitios web y aplicaciones de internet con el lenguaje de marcado HTML y el mecanismo que agrega estilo, CSS, conceptos de servidor local como Xampp y WampServer."
+                            "description" : "Creación y mantenimiento de sitios web y aplicaciones de internet con el lenguaje de marcado HTML y el mecanismo que agrega estilo, CSS, conceptos de servidor local como Nginx, Xampp y WampServer."
                         },
                         {
                             "title" : "PHP / Base de Datos",
@@ -682,7 +682,7 @@
                         {
                             "title" : "Développement Web",
                             "year" : "2014",
-                            "description" : "Création et maintenance de sites Web et d'applications Internet avec le langage de balisage HTML et le mécanisme qui ajoute du style, du CSS, des concepts de serveur local tels que Xampp et WampServer."
+                            "description" : "Création et maintenance de sites Web et d'applications Internet avec le langage de balisage HTML et le mécanisme qui ajoute du style, du CSS, des concepts de serveur local tels que Nginx, Xampp et WampServer."
                         },
                         {
                             "title" : "PHP / Base de Données",
