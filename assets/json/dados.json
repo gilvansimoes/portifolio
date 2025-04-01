@@ -85,7 +85,7 @@
                     "about_3" : "Graduado em Sistemas de Informação - Unifacs(Universidade Salvador) em Feira de Santana - Bahia."
                 },
                 {
-                    "about_4" : "Na disciplina de Logica de Programação em 2010, foi o despertar para o mundo da programação. Conforme progredia com Pascal, C e C++, Java, Banco de dados(PostgreSQL, MySQL, SQLite), PHP e linguagem para Web decidi me dedicar a programação."
+                    "about_4" : "Na disciplina de Logica de Programação em 2010, foi o despertar para o mundo da programação. Conforme progredia com Pascal, C, C++, Java, Banco de dados(PostgreSQL, MySQL, SQLite), PHP e linguagem para Web decidi me dedicar a programação."
                 },
                 {
                     "about_5" : "Comecei aprofundando em HTML, CSS, PHP e JavaScript com cursos online."
@@ -126,7 +126,7 @@
                         {
                             "title" : "C e C++",
                             "year" : "2012",
-                            "description" : "Fundamentos da programação, manipulação de memória e manejo de memória avançado, estruturas de dados simples, introdução ao sistema operacional, algoritmos e eficiência, programação prientada a objetos (OOP), bibliotecas padrão (STL), design de software e arquitetura, programação genérica e multithreading e paralelismo."
+                            "description" : "Fundamentos da programação, manipulação de memória e manejo de memória avançado, estruturas de dados simples, introdução ao sistema operacional, algoritmos e eficiência, programação orientada a objetos (OOP), bibliotecas padrão (STL), design de software e arquitetura, programação genérica e multithreading e paralelismo."
                         },
                         {
                             "title" : "Java",
@@ -136,7 +136,7 @@
                         {
                             "title" : "Desenvolvimento Web",
                             "year" : "2014",
-                            "description" : "Criação, manutenção de sites e aplicações para a internet com a linguagem de marcação HTML e o mecanismo que adiciona estilo o CSS, conceitos de servidores local como o Xampp e WampServer."
+                            "description" : "Criação, manutenção de sites e aplicações para a internet com a linguagem de marcação HTML e o mecanismo que adiciona estilo o CSS, conceitos de servidores local como o Nginx, Xampp e WampServer."
                         },
                         {
                             "title" : "PHP / Banco de Dados",
@@ -146,7 +146,7 @@
                         {
                             "title" : "JavaScript",
                             "year" : "2016",
-                            "description" : "Curso de JavaScript do básico ao avançado,fundamentos da linguagem, introdução ao JavaScript e sua história, manipulação de DOM, eventos, funções, programação assíncrona, conceitos de objetos, modularização, introducao a biblioteca React, framework Angular e Node.js execução do JavaScript no lado do servidor."
+                            "description" : "Curso de JavaScript do básico ao avançado,fundamentos da linguagem, introdução ao JavaScript e sua história, manipulação de DOM, eventos, funções, programação assíncrona, conceitos de objetos, modularização, introdução a biblioteca React, framework Angular e Node.js execução do JavaScript no lado do servidor."
                         },
                         {
                             "title" : "Automação de Processos",
