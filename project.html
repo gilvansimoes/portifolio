@@ -1,6 +1,6 @@
-<!-- DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -9,43 +9,101 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div class="index">
-                <a href="index.html" id="home"></a>
+  <header class="header">
+    <nav class="nav">
+        <div class="index">
+            <a href="index.html" id="home"></a>
+        </div>
+        <div class="about">
+            <a href="about.html" id="about"></a>
+        </div>
+        <div class="project">    
+            <a href="project.html" id="project"></a>
+        </div>
+        <div class="lang flag">   
+            <img src="./assets/bra.png" alt="Portugues" onclick="pt()" id="pt">
+            <img src="./assets/usa.png" alt="Ingles" onclick="en()" id="en">
+            <img src="./assets/esp.png" alt="Espanhol" onclick="es()" id="es">
+            <img src="./assets/fra.png" alt="Frances" onclick="fr()" id="fr">
+        </div>
+        <div class="theme">
+            <div class="toggle" id="toggle" onclick="toggleTheme()"></div>
+        </div>
+    </nav>
+</header>
+<main class="main" id="main">
+    <div class="gallery-container">
+      <h1>Meus Projetos</h1>
+      <div class="gallery">
+        <!-- Exemplo de itens da galeria -->
+        <div class="gallery-item">
+            <img src="./assets/project/Jogo-secreto.jpg" alt="Jogo do Numero Secreto">
+            <div class="overlay">
+                <h3>Jogo do Numero Secreto</h3>
+                <p>
+                    Aplicação desenvolvida com HTML, CSS e JS.
+                    Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar,
+                    a aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute
+                    vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte
+                    de voz para o usuário, caso o usuário aceite "ALLOW" no início. 
+                </p>
+                <a href="https://jogo-secreto-lyart.vercel.app/" target="_blank">Jogo do Numero Secreto</a>
             </div>
-            <div class="about">
-                <a href="about.html" id="about"></a>
+        </div>
+        <div class="gallery-item">
+            <img src="./assets/project/yu_gi_oh.jpg" alt="Yu-Gi-Oh">
+            <div class="overlay">
+                <h3>Yu-Gi-Oh</h3>
+                <p>
+                    Aplicação desenvolvida com HTML, CSS e JS.
+                    Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, 
+                    sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.
+                </p>
+                <a href="https://yu-gi-oh-chi.vercel.app/" target="_blank">Yu-Gi-Oh</a>
             </div>
-            <div class="project">    
-                <a href="project.html" id="project"></a>
+        </div>
+        <div class="gallery-item">
+            <img src="./" alt="Projeto 3">
+            <div class="overlay">
+                <h3>Projeto 3</h3>
+                <p>Descrição breve do projeto 3</p>
             </div>
-            <div class="lang flag">   
-                <img src="./assets/bra.png" alt="Portugues" onclick="pt()" id="pt">
-                <img src="./assets/usa.png" alt="Ingles" onclick="en()" id="en">
-                <img src="./assets/esp.png" alt="Espanhol" onclick="es()" id="es">
-                <img src="./assets/fra.png" alt="Frances" onclick="fr()" id="fr">
+        </div>
+        <div class="gallery-item">
+            <img src="./" alt="Projeto 4">
+            <div class="overlay">
+                <h3>Projeto 4</h3>
+                <p>Descrição breve do projeto 4</p>
             </div>
-            <div class="theme">
-                <div class="toggle" id="toggle" onclick="toggleTheme()"></div>
+        </div>
+        <div class="gallery-item">
+            <img src="./" alt="Projeto 5">
+            <div class="overlay">
+                <h3>Projeto 5</h3>
+                <p>Descrição breve do projeto 5</p>
             </div>
-        </nav>
-    </header>
-    <main class="main">
-        <section class="main" id="main">
-            <h1 class="main__content__titulo"><p>Projetos</p></h1>
-            <h3>Incluindo projetos, aguarde...</h3>
-        </section>
-    </main>
-    <div class="foot">
-        <footer class="rodape" id="footer"></footer>
+        </div>
+        <div class="gallery-item">
+            <img src="./" alt="Projeto 6">
+            <div class="overlay">
+                <h3>Projeto 6</h3>
+                <p>Descrição breve do projeto 6</p>
+            </div>
+        </div>
+        <!-- Adicione mais itens conforme necessário -->
     </div>
+</div>
+</main>
+<div class="foot">
+  <footer class="rodape" id="footer"></footer>
+</div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="./js/main.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         var theme = window.localStorage.getItem('theme');
@@ -67,80 +125,4 @@
         }
     })
 </script>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Projetos</title>
-    <link rel="stylesheet" href="./styles/project.css">
-</head>
-<body>
-
-<h2 style="text-align:center">Slideshow Gallery</h2>
-
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="./assets/project/img_woods_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="./assets/project/img_5terre_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="./assets/project/img_mountains_wide.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="./assets/project/img_lights_wide.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="./assets/project/img_nature_wide.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="./assets/project/img_snow_wide.jpg" style="width:100%">
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_woods_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_5terre_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="./assets/project/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
-</div>
-</body>
-<script src="./js/project.js"></script>
 </html>

@@ -449,3 +449,17 @@ if (main) {
     }
   });
 }
+
+const curriculo = document.getElementById('curriculo');
+
+if (curriculo) {
+    curriculo.addEventListener('click', function() {
+        const curriculoUrl = './assets/json/Gilvan Simoes de Barros.pdf';
+        const link = document.createElement('a');
+        link.href = curriculoUrl;
+        link.download = 'Curriculo_Gilvan_Simoes.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
