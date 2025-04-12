@@ -21,17 +21,25 @@
 
 .fa-html5 {
   color: orange;
+  font-size: x-large;
 }
 
 .fa-css3 {
   color: blue;
+  font-size: x-large;
 }
 
 .fa-js {
   color: yellow;
+  font-size: x-large;
 }
 .fa-react {
   color: #61DAFB;
+  font-size: x-large;
+}
+.fa-angular {
+  color: red;
+  font-size: x-large;
 }
 
 .gallery-container h1 {

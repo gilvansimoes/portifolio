@@ -179,7 +179,6 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
                             "text_repo": "Jogo do Número Secreto"
                         },
                         {
@@ -190,7 +189,6 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
                             "text_repo": "Yu-Gi-Oh"
                         },
                         {
@@ -199,9 +197,8 @@
                             "link": "https://gilvansimoes.github.io/calcular_imc/",
                             "image": "./assets/project/imc.png",
                             "logo_lang": "fa-react",
-                            "logo_lang_2": "",
+                            "logo_lang_2": "fa-css3",
                             "logo_lang_3": "",
-                            "link_repo": "https://gilvansimoes.github.io/calcular_imc/",
                             "text_repo": "Calcular IMC"
                         }
                     ]
@@ -389,7 +386,6 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
                             "text_repo": "Secret Number Game"
                         },
                         {
@@ -401,8 +397,17 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
                             "text_repo": "Yu-Gi-Oh Game"
+                        },
+                        {
+                            "title": "BMI Calculator",
+                            "description": "Application developed with React. Calculates a person's BMI, with weight and height validations and presents the result in a table with additional information. Developed in the Hora de Codar course.",
+                            "link": "https://gilvansimoes.github.io/calcular_imc/",
+                            "image": "./assets/project/imc.png",
+                            "logo_lang": "fa-react",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "",
+                            "text_repo": "BMI Calculator"
                         }
                     ]
                 }
@@ -589,7 +594,6 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
                             "text_repo": "Juego del Número Secreto"
                         },
                         {
@@ -601,8 +605,17 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
                             "text_repo": "Yu-Gi-Oh Juego"
+                        },
+                        {
+                            "title": "Calculadora de IMC",
+                            "description": "Aplicación desarrollada con React. Calcula el IMC de una persona, con validaciones de peso y altura, y presenta el resultado en una tabla con información adicional. Desarrollado en el curso Hora de Codar.",
+                            "link": "https://gilvansimoes.github.io/calcular_imc/",
+                            "image": "./assets/project/imc.png",
+                            "logo_lang": "fa-react",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "",
+                            "text_repo": "Calcular el IMC"
                         }
                     ]
                 }
@@ -789,7 +802,6 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
                             "text_repo": "Jeu du Nombre Secret"
                         },
                         {
@@ -801,8 +813,17 @@
                             "logo_lang": "fa-html5",
                             "logo_lang_2": "fa-css3",
                             "logo_lang_3": "fa-js",
-                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
                             "text_repo": "Yu-Gi-Oh Jeu"
+                        },
+                        {
+                            "title": "Calculateur d'IMC",
+                            "description": "Application développée avec React. Calcule l'IMC d'une personne, avec validation du poids et de la taille, et présente le résultat dans un tableau avec des informations supplémentaires. Développé dans le cours Hora de Codar.",
+                            "link": "https://gilvansimoes.github.io/calcular_imc/",
+                            "image": "./assets/project/imc.png",
+                            "logo_lang": "fa-react",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "",
+                            "text_repo": "Calculer l'IMC"
                         }
                     ]
                 }

@@ -81,6 +81,8 @@ let message = document.getElementById('message');
 let gallery = document.getElementById('gallery');
 let titleProject = document.getElementById('titleProject');
 let btnCurriculo = document.getElementById('curriculo');
+const main = document.getElementById("main");
+const curriculo = document.getElementById('curriculo');
 
 let main__about = document.getElementById('main__about');
 let about_1 = document.getElementById('about_1');
@@ -443,7 +445,7 @@ function buscaDados3(item) {
                         </div>
                     </div>
                     <p>${element.description}</p>
-                    <a href="${element.link}" target="_blank">${element.title}</a>
+                    <a href="${element.link}" target="_blank">${element.text_repo}</a>
                 </div>
             </div>`;
         });
@@ -519,8 +521,6 @@ function sendEmail(ptitulo, pEmail, pNome, pWhatsapp, pMessage, pSubmit) {
     });
 }
 
-const main = document.getElementById("main");
-
 if (main) {
     window.addEventListener("scroll", () => {
         const elemento = document.getElementById("formbutton-button");
@@ -537,8 +537,6 @@ if (main) {
         }
     });
 }
-
-const curriculo = document.getElementById('curriculo');
 
 if (curriculo) {
     curriculo.addEventListener('click', function () {
