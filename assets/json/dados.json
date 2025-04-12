@@ -3,180 +3,208 @@
         {
             "index": [
                 {
-                    "nav" : [
+                    "nav": [
                         {
-                            "home" : "Início"
+                            "home": "Início"
                         },
                         {
-                            "about" : "Sobre mim"
+                            "about": "Sobre mim"
                         },
                         {
-                            "project" : "Projetos"
+                            "project": "Projetos"
+                        },
+                        {
+                            "curriculo": "Baixar Currículo"
                         }
                     ]
                 },
                 {
-                    "titulo" : "Oi! Eu sou"
+                    "titulo": "Oi! Eu sou"
                 },
                 {
-                    "ul":[
+                    "ul": [
                         {
-                            "full":"Full-Stack"
+                            "full": "Full-Stack"
                         },
                         {
-                            "front":"Front-End"
-                        },
-                        { 
-                            "back":"Back-End"
+                            "front": "Front-End"
                         },
                         {
-                            "dev":"Desenvolvedor"
+                            "back": "Back-End"
                         },
                         {
-                            "name":"Gilvan Simões"
+                            "dev": "Desenvolvedor"
+                        },
+                        {
+                            "name": "Gilvan Simões"
                         }
                     ]
                 },
                 {
-                    "paragrafo_1" : "Tenho experiência em Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
+                    "paragrafo_1": "Tenho experiência em Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
                 },
                 {
-                    "paragrafo_2" : "Conhecimentos nas linguagens: Angular, React, Java, Python, C++ e desenvolvendo habilidades."
+                    "paragrafo_2": "Conhecimentos nas linguagens: Angular, React, Java, Python, C++ e desenvolvendo habilidades."
                 },
                 {
-                    "paragrafo_3" : "Cursando Typescript e Vue."
+                    "paragrafo_3": "Cursando Typescript e Vue."
                 },
                 {
-                    "paragrafo_4" : "Vamos conversar?"
+                    "paragrafo_4": "Vamos conversar?"
                 },
                 {
-                    "titulo_rede" : "Acesse minhas redes:"
+                    "titulo_rede": "Acesse minhas redes:"
                 },
                 {
-                    "footer" : "Desenvolvido por Gilvan Simões &copy;<span>2025</span>"
+                    "footer": "Desenvolvido por Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
-                    "ptitulo" : "Como posso ajudar?"
+                    "ptitulo": "Como posso ajudar?"
                 },
                 {
-                    "pEmail" : "Seu email: email@example.com"
+                    "pEmail": "Seu email: email@example.com"
                 },
                 {
-                    "pNome" : "Seu nome."
+                    "pNome": "Seu nome."
                 },
                 {
-                    "pWhatsapp" : "Seu whatsapp. (Opcional)"
+                    "pWhatsapp": "Seu whatsapp. (Opcional)"
                 },
                 {
-                    "pMessage" : "Sua mensagem: Sobre o que você quer falar?"
+                    "pMessage": "Sua mensagem: Sobre o que você quer falar?"
                 },
                 {
-                    "pSubmit" : "Enviar"
+                    "pSubmit": "Enviar"
                 }
             ],
             "about": [
                 {
-                    "about_1" : "Olá! Sou Gilvan Simões, desenvolvedor Full Stack e uma coisa que amo na vida é criar e entregar experiências. Trabalho com desenvolvimento desde 2017, iniciei como desenvolvedor Back-End com PHP criando sites e aplicações web."
+                    "about_1": "Olá! Sou Gilvan Simões, desenvolvedor Full Stack e uma coisa que amo na vida é criar e entregar experiências. Trabalho com desenvolvimento desde 2017, iniciei como desenvolvedor Back-End com PHP criando sites e aplicações web."
                 },
                 {
-                    "about_2" : "Me considero um profissional bem capacitado, versátil e ágil. Estou sempre curioso para aprender mais quando se trata de novas tecnologias e codificação criativa."
+                    "about_2": "Me considero um profissional bem capacitado, versátil e ágil. Estou sempre curioso para aprender mais quando se trata de novas tecnologias e codificação criativa."
                 },
                 {
-                    "about_3" : "Graduado em Sistemas de Informação - Unifacs(Universidade Salvador) em Feira de Santana - Bahia."
+                    "about_3": "Graduado em Sistemas de Informação - Unifacs(Universidade Salvador) em Feira de Santana - Bahia."
                 },
                 {
-                    "about_4" : "Na disciplina de Logica de Programação em 2010, foi o despertar para o mundo da programação. Conforme progredia com Pascal, C, C++, Java, Banco de dados(PostgreSQL, MySQL, SQLite), PHP e linguagem para Web decidi me dedicar a programação."
+                    "about_4": "Na disciplina de Logica de Programação em 2010, foi o despertar para o mundo da programação. Conforme progredia com Pascal, C, C++, Java, Banco de dados(PostgreSQL, MySQL, SQLite), PHP e linguagem para Web decidi me dedicar a programação."
                 },
                 {
-                    "about_5" : "Comecei aprofundando em HTML, CSS, PHP e JavaScript com cursos online."
+                    "about_5": "Comecei aprofundando em HTML, CSS, PHP e JavaScript com cursos online."
                 },
                 {
-                    "titulo" : "Trajetória"
+                    "titulo": "Trajetória"
                 },
                 {
-                    "titulo_p" : "Carreira / Formação"
+                    "titulo_p": "Carreira / Formação"
                 },
                 {
-                    "timeline" : [
+                    "timeline": [
                         {
-                            "title" : "Primeiro Emprego",
-                            "year" : "2007",
-                            "description" : "Início na Dass Nordeste & Artigos Esportivos no cargo de Multioperador, costurando biqueira e traseiro de tênis das marcas Nike e Fila."
+                            "title": "Primeiro Emprego",
+                            "year": "2007",
+                            "description": "Início na Dass Nordeste & Artigos Esportivos no cargo de Multioperador, costurando biqueira e traseiro de tênis das marcas Nike e Fila."
                         },
                         {
-                            "title" : "PPCP",
-                            "year" : "2010",
-                            "description" : "Promovido a assistente de PPCP (Programacao Planejamento e Controle da Produção), planejando e controlando a produção, elaboração e impressão de rótulos e etiquetas, relatórios e dashboards em Excel."
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promovido a assistente de PPCP (Programacao Planejamento e Controle da Produção), planejando e controlando a produção, elaboração e impressão de rótulos e etiquetas, relatórios e dashboards em Excel."
                         },
                         {
-                            "title" : "Sistemas de Informação",
-                            "year" : "2010",
-                            "description" : "Início da graduação na universidade Salvador(Unifacs) em Feira de Santana."
+                            "title": "Sistemas de Informação",
+                            "year": "2010",
+                            "description": "Início da graduação na universidade Salvador(Unifacs) em Feira de Santana."
                         },
                         {
-                            "title" : "ALGOL e Pascal",
-                            "year" : "2011",
-                            "description" : "Início da disciplina de Logica de Programação e Pascal."
+                            "title": "ALGOL e Pascal",
+                            "year": "2011",
+                            "description": "Início da disciplina de Logica de Programação e Pascal."
                         },
                         {
-                            "title" : "Suporte Técnico",
-                            "year" : "2012",
-                            "description" : "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidores NVR e câmeras IP, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
+                            "title": "Suporte Técnico",
+                            "year": "2012",
+                            "description": "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidores NVR e câmeras IP, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
                         },
                         {
-                            "title" : "C e C++",
-                            "year" : "2012",
-                            "description" : "Fundamentos da programação, manipulação de memória e manejo de memória avançado, estruturas de dados simples, introdução ao sistema operacional, algoritmos e eficiência, programação orientada a objetos (OOP), bibliotecas padrão (STL), design de software e arquitetura, programação genérica e multithreading e paralelismo."
+                            "title": "C e C++",
+                            "year": "2012",
+                            "description": "Fundamentos da programação, manipulação de memória e manejo de memória avançado, estruturas de dados simples, introdução ao sistema operacional, algoritmos e eficiência, programação orientada a objetos (OOP), bibliotecas padrão (STL), design de software e arquitetura, programação genérica e multithreading e paralelismo."
                         },
                         {
-                            "title" : "Java",
-                            "year" : "2013",
-                            "description" : "Sintaxe básica, programação orientada a objetos (OOP), manipulação de exceções, coleções e estruturas de dados, threads e concorrência, programação funcional, desenvolvimento desktop, introdução ao desenvolvimento Web e ao desenvolvimento mobile, conexão e manipulação de bancos de dados com JDBC."
+                            "title": "Java",
+                            "year": "2013",
+                            "description": "Sintaxe básica, programação orientada a objetos (OOP), manipulação de exceções, coleções e estruturas de dados, threads e concorrência, programação funcional, desenvolvimento desktop, introdução ao desenvolvimento Web e ao desenvolvimento mobile, conexão e manipulação de bancos de dados com JDBC."
                         },
                         {
-                            "title" : "Desenvolvimento Web",
-                            "year" : "2014",
-                            "description" : "Criação, manutenção de sites e aplicações para a internet com a linguagem de marcação HTML e o mecanismo que adiciona estilo o CSS, conceitos de servidores local como o Nginx, Xampp e WampServer."
+                            "title": "Desenvolvimento Web",
+                            "year": "2014",
+                            "description": "Criação, manutenção de sites e aplicações para a internet com a linguagem de marcação HTML e o mecanismo que adiciona estilo o CSS, conceitos de servidores local como o Nginx, Xampp e WampServer."
                         },
                         {
-                            "title" : "PHP / Banco de Dados",
-                            "year" : "2015",
-                            "description" : "Introdução ao PHP, manipulação de formulários, como coletar e processar dados enviados por formulários HTML usando PHP, trabalhando com bancos de dados, conexão ao MySQL, Postgres ou outros bancos, execução de consultas (SELECT, INSERT, UPDATE, DELETE), gerenciamento de sessões e cookies, programação orientada a objetos (POO), uso de classes, objetos e conceitos como herança e encapsulamento, segurança, boas práticas para evitar ataques como SQL Injection e XSS e criação de aplicações web dinâmicas."
+                            "title": "PHP / Banco de Dados",
+                            "year": "2015",
+                            "description": "Introdução ao PHP, manipulação de formulários, como coletar e processar dados enviados por formulários HTML usando PHP, trabalhando com bancos de dados, conexão ao MySQL, Postgres ou outros bancos, execução de consultas (SELECT, INSERT, UPDATE, DELETE), gerenciamento de sessões e cookies, programação orientada a objetos (POO), uso de classes, objetos e conceitos como herança e encapsulamento, segurança, boas práticas para evitar ataques como SQL Injection e XSS e criação de aplicações web dinâmicas."
                         },
                         {
-                            "title" : "JavaScript",
-                            "year" : "2016",
-                            "description" : "Curso de JavaScript do básico ao avançado,fundamentos da linguagem, introdução ao JavaScript e sua história, manipulação de DOM, eventos, funções, programação assíncrona, conceitos de objetos, modularização, introdução a biblioteca React, framework Angular e Node.js execução do JavaScript no lado do servidor."
+                            "title": "JavaScript",
+                            "year": "2016",
+                            "description": "Curso de JavaScript do básico ao avançado,fundamentos da linguagem, introdução ao JavaScript e sua história, manipulação de DOM, eventos, funções, programação assíncrona, conceitos de objetos, modularização, introdução a biblioteca React, framework Angular e Node.js execução do JavaScript no lado do servidor."
                         },
                         {
-                            "title" : "Automação de Processos",
-                            "year" : "2017",
-                            "description" : "Desenvolvimento aplicações Web para colaborar com setor produtivo, Cronometro regressivo e progressivo para auxiliar na troca de layout e setup, aplicação para reserva de lanche com leitura de crachá eliminando o uso de papel e longas filas, aplicação para reserva de almoço aos finais de semana e feriados, aplicação para sorteio de brindes e votação para opinião dos colaboradores sobre acordo de troca de feriado."
+                            "title": "Automação de Processos",
+                            "year": "2017",
+                            "description": "Desenvolvimento aplicações Web para colaborar com setor produtivo, Cronometro regressivo e progressivo para auxiliar na troca de layout e setup, aplicação para reserva de lanche com leitura de crachá eliminando o uso de papel e longas filas, aplicação para reserva de almoço aos finais de semana e feriados, aplicação para sorteio de brindes e votação para opinião dos colaboradores sobre acordo de troca de feriado."
                         },
                         {
-                            "title" : "Melhoria Continua",
-                            "year" : "2019",
-                            "description" : "Promovido para analista de automação de processos, com objetivo de conciliar com aplicações, buscando eliminar trabalhos repetitivos e utilização de folhas de papel, criação de ferramentas para gerenciar melhorias, atendimento laboratorial, controle de teste de calce, pés confirmados e telas de serigrafia, gerenciamento de produção e entrada de novos modelos."
+                            "title": "Melhoria Continua",
+                            "year": "2019",
+                            "description": "Promovido para analista de automação de processos, com objetivo de conciliar com aplicações, buscando eliminar trabalhos repetitivos e utilização de folhas de papel, criação de ferramentas para gerenciar melhorias, atendimento laboratorial, controle de teste de calce, pés confirmados e telas de serigrafia, gerenciamento de produção e entrada de novos modelos."
                         }
                     ]
                 }
             ],
             "project": [
                 {
-                    "title" : "Jogo do Numero Secreto",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
-                    "link" : "https://jogo-secreto-lyart.vercel.app/"
+                    "tituloProject": "Meus Projetos"
                 },
                 {
-                    "title" : "Yu-Gi-Oh",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
-                    "link" : "https://yu-gi-oh-chi.vercel.app/"
-                },
-                {
-                    "nome" : "2016"
-                },
-                {
-                    "nome" : "2021"
+                    "dadosProject": [
+                        {
+                            "title": "Jogo do Numero Secreto",
+                            "description": "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Há validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação também possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
+                            "link": "https://jogo-secreto-lyart.vercel.app/",
+                            "image": "./assets/project/jogo_secreto.jpg",
+                            "alt": "Jogo do Número Secreto",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
+                            "text_repo": "Jogo do Número Secreto"
+                        },
+                        {
+                            "title": "Yu-Gi-Oh",
+                            "description": "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
+                            "link": "https://yu-gi-oh-chi.vercel.app/",
+                            "image": "./assets/project/yu_gi_oh.jpg",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
+                            "text_repo": "Yu-Gi-Oh"
+                        },
+                        {
+                            "title": "Calculadora de IMC",
+                            "description": "Aplicação desenvolvida com React. Calcula o IMC de uma pessoa, com validações de peso e altura e apresenta o resultado em uma tabela com informações adicionais. Desenvolvido no curso Hora de Codar.",
+                            "link": "https://gilvansimoes.github.io/calcular_imc/",
+                            "image": "./assets/project/imc.png",
+                            "logo_lang": "fa-react",
+                            "logo_lang_2": "",
+                            "logo_lang_3": "",
+                            "link_repo": "https://gilvansimoes.github.io/calcular_imc/",
+                            "text_repo": "Calcular IMC"
+                        }
+                    ]
                 }
             ]
         }
@@ -185,180 +213,198 @@
         {
             "index": [
                 {
-                    "nav" : [
+                    "nav": [
                         {
-                            "home" : "Home"
+                            "home": "Home"
                         },
                         {
-                            "about" : "About me"
+                            "about": "About me"
                         },
                         {
-                            "project" : "Projects"
+                            "project": "Projects"
+                        },
+                        {
+                            "curriculo": "Download CV"
                         }
                     ]
                 },
                 {
-                    "titulo" : "Hello! I'm"
+                    "titulo": "Hello! I'm"
                 },
                 {
-                    "ul":[
+                    "ul": [
                         {
-                            "full":"Full-Stack"
+                            "full": "Full-Stack"
                         },
                         {
-                            "front":"Front-End"
-                        },
-                        { 
-                            "back":"Back-End"
+                            "front": "Front-End"
                         },
                         {
-                            "dev":"Developer"
+                            "back": "Back-End"
                         },
                         {
-                            "name":"Gilvan Simões"
+                            "dev": "Developer"
+                        },
+                        {
+                            "name": "Gilvan Simões"
                         }
                     ]
                 },
                 {
-                    "paragrafo_1" : "I have experience in Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
+                    "paragrafo_1": "I have experience in Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
                 },
                 {
-                    "paragrafo_2" : "Knowledge in languages: Angular, React, Java, Python, C++ and developing skills."
+                    "paragrafo_2": "Knowledge in languages: Angular, React, Java, Python, C++ and developing skills."
                 },
                 {
-                    "paragrafo_3" : "Learning Typescript and Vue."
+                    "paragrafo_3": "Learning Typescript and Vue."
                 },
                 {
-                    "paragrafo_4" : "Let's chat?"
+                    "paragrafo_4": "Let's chat?"
                 },
                 {
-                    "titulo_rede" : "Access my networks:"
+                    "titulo_rede": "Access my networks:"
                 },
                 {
-                    "footer" : "Developed by Gilvan Simões &copy;<span>2025</span>"
+                    "footer": "Developed by Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
-                    "ptitulo" : "How can I help you?"
+                    "ptitulo": "How can I help you?"
                 },
                 {
-                    "pEmail" : "Your email: email@example.com"
+                    "pEmail": "Your email: email@example.com"
                 },
                 {
-                    "pNome" : " Your name."
+                    "pNome": " Your name."
                 },
                 {
-                    "pWhatsapp" : "Your whatsapp. (Optional)"
+                    "pWhatsapp": "Your whatsapp. (Optional)"
                 },
                 {
-                    "pMessage" : "Your message: About what you want to talk?"
+                    "pMessage": "Your message: About what you want to talk?"
                 },
                 {
-                    "pSubmit" : "Send"
+                    "pSubmit": "Send"
                 }
             ],
             "about": [
                 {
-                    "about_1" : "Hello! I'm Gilvan Simões, a Full Stack developer and one thing I love in life is creating and delivering experiences. I've been working with development since 2017, I started as a Back-End developer with PHP creating websites and web applications."
+                    "about_1": "Hello! I'm Gilvan Simões, a Full Stack developer and one thing I love in life is creating and delivering experiences. I've been working with development since 2017, I started as a Back-End developer with PHP creating websites and web applications."
                 },
                 {
-                    "about_2" : "I consider myself a professional but capable, versatile and agile. It's always interesting to learn but when it comes to new technologies and creative coding."
+                    "about_2": "I consider myself a professional but capable, versatile and agile. It's always interesting to learn but when it comes to new technologies and creative coding."
                 },
                 {
-                    "about_3" : "Graduated in Information Systems - Unifacs(Universidade Salvador) in Feira de Santana - Bahia."
+                    "about_3": "Graduated in Information Systems - Unifacs(Universidade Salvador) in Feira de Santana - Bahia."
                 },
                 {
-                    "about_4" : "In the Programming Logic class in 2010, I was awakened to the world of programming. As I progressed with Pascal, C and C++, Java, Databases (PostgreSQL, MySQL, SQLite), PHP and Web languages, I decided to dedicate myself to programming."
+                    "about_4": "In the Programming Logic class in 2010, I was awakened to the world of programming. As I progressed with Pascal, C and C++, Java, Databases (PostgreSQL, MySQL, SQLite), PHP and Web languages, I decided to dedicate myself to programming."
                 },
                 {
-                    "about_5" : "I started delving deeper into HTML, CSS, PHP and JavaScript with online courses."
+                    "about_5": "I started delving deeper into HTML, CSS, PHP and JavaScript with online courses."
                 },
                 {
-                    "titulo" : "Trajectory"
+                    "titulo": "Trajectory"
                 },
                 {
-                    "titulo_p" : "Career / Formation"
+                    "titulo_p": "Career / Formation"
                 },
                 {
-                    "timeline" : [
+                    "timeline": [
                         {
-                            "title" : "First Job",
-                            "year" : "2007",
-                            "description" : "Started at Dass Nordeste & Artigos Esportivos as a Multi-Operator, sewing the toe caps and backs of Nike and Fila brand sneakers."
+                            "title": "First Job",
+                            "year": "2007",
+                            "description": "Started at Dass Nordeste & Artigos Esportivos as a Multi-Operator, sewing the toe caps and backs of Nike and Fila brand sneakers."
                         },
                         {
-                            "title" : "PPCP",
-                            "year" : "2010",
-                            "description" : "Promoted to PPCP (Production Planning and Control Programming) assistant, planning and controlling production, preparation and printing of labels and tags, reports and dashboards in Excel."
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promoted to PPCP (Production Planning and Control Programming) assistant, planning and controlling production, preparation and printing of labels and tags, reports and dashboards in Excel."
                         },
                         {
-                            "title" : "Information Systems",
-                            "year" : "2010",
-                            "description" : "Start of graduation at the University of Salvador (Unifacs) in Feira de Santana."
+                            "title": "Information Systems",
+                            "year": "2010",
+                            "description": "Start of graduation at the University of Salvador (Unifacs) in Feira de Santana."
                         },
                         {
-                            "title" : "ALGOL and Pascal",
-                            "year" : "2011",
-                            "description" : "Start of the Programming Logic and Pascal course."
+                            "title": "ALGOL and Pascal",
+                            "year": "2011",
+                            "description": "Start of the Programming Logic and Pascal course."
                         },
                         {
-                            "title" : "Technical Support",
-                            "year" : "2012",
-                            "description" : "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, NVR servers and IP cameras, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
+                            "title": "Technical Support",
+                            "year": "2012",
+                            "description": "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, NVR servers and IP cameras, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
                         },
                         {
-                            "title" : "C and C++",
-                            "year" : "2012",
-                            "description" : "Fundamentals of programming, memory manipulation and advanced memory management, simple data structures, introduction to operating system, algorithms and efficiency, object-oriented programming (OOP), standard libraries (STL), software design and architecture, generic programming and multithreading and parallelism."
+                            "title": "C and C++",
+                            "year": "2012",
+                            "description": "Fundamentals of programming, memory manipulation and advanced memory management, simple data structures, introduction to operating system, algorithms and efficiency, object-oriented programming (OOP), standard libraries (STL), software design and architecture, generic programming and multithreading and parallelism."
                         },
                         {
-                            "title" : "Java",
-                            "year" : "2013",
-                            "description" : "Basic syntax, object-oriented programming (OOP), exception handling, collections and data structures, threads and concurrency, functional programming, desktop development, introduction to web development and mobile development, connecting and manipulating databases with JDBC."
+                            "title": "Java",
+                            "year": "2013",
+                            "description": "Basic syntax, object-oriented programming (OOP), exception handling, collections and data structures, threads and concurrency, functional programming, desktop development, introduction to web development and mobile development, connecting and manipulating databases with JDBC."
                         },
                         {
-                            "title" : "Web Development",
-                            "year" : "2014",
-                            "description" : "Creation, maintenance of websites and internet applications with the HTML markup language and the mechanism that adds style, CSS, concepts of local servers such as Nginx, Xampp and WampServ"
+                            "title": "Web Development",
+                            "year": "2014",
+                            "description": "Creation, maintenance of websites and internet applications with the HTML markup language and the mechanism that adds style, CSS, concepts of local servers such as Nginx, Xampp and WampServ"
                         },
                         {
-                            "title" : "PHP / Database",
-                            "year" : "2015",
-                            "description" : "Introduction to PHP, form handling, how to collect and process data sent by HTML forms using PHP, working with databases, connecting to MySQL, Postgres or other databases, executing queries (SELECT, INSERT, UPDATE, DELETE), managing sessions and cookies, object-oriented programming (OOP), using classes, objects and concepts such as inheritance and encapsulation, security, best practices to avoid attacks such as SQL Injection and XSS and creating dynamic web applications."
+                            "title": "PHP / Database",
+                            "year": "2015",
+                            "description": "Introduction to PHP, form handling, how to collect and process data sent by HTML forms using PHP, working with databases, connecting to MySQL, Postgres or other databases, executing queries (SELECT, INSERT, UPDATE, DELETE), managing sessions and cookies, object-oriented programming (OOP), using classes, objects and concepts such as inheritance and encapsulation, security, best practices to avoid attacks such as SQL Injection and XSS and creating dynamic web applications."
                         },
                         {
-                            "title" : "JavaScript",
-                            "year" : "2016",
-                            "description" : "JavaScript course from basic to advanced, language fundamentals, introduction to JavaScript and its history, DOM manipulation, events, functions, asynchronous programming, object concepts, modularization, introduction to the React library, Angular framework and Node.js, execution of JavaScript on the server side."
+                            "title": "JavaScript",
+                            "year": "2016",
+                            "description": "JavaScript course from basic to advanced, language fundamentals, introduction to JavaScript and its history, DOM manipulation, events, functions, asynchronous programming, object concepts, modularization, introduction to the React library, Angular framework and Node.js, execution of JavaScript on the server side."
                         },
                         {
-                            "title" : "Process Automation",
-                            "year" : "2017",
-                            "description" : "Development of web applications to collaborate with the production sector, countdown and progressive timer to assist in changing layout and setup, application for snack reservations with badge reading, eliminating the use of paper and long lines, application for lunch reservations on weekends and holidays, application for prize draws and voting for employees' opinions on holiday exchange agreements."
+                            "title": "Process Automation",
+                            "year": "2017",
+                            "description": "Development of web applications to collaborate with the production sector, countdown and progressive timer to assist in changing layout and setup, application for snack reservations with badge reading, eliminating the use of paper and long lines, application for lunch reservations on weekends and holidays, application for prize draws and voting for employees' opinions on holiday exchange agreements."
                         },
                         {
-                            "title" : "Continuous Improvement",
-                            "year" : "2019",
-                            "description" : "Promoted to process automation analyst, with the objective of reconciling with applications, seeking to eliminate repetitive work and the use of sheets of paper, creating tools to manage improvements, laboratory service, control of fit tests, confirmed feet and screen printing screens, production management and entry of new models."
+                            "title": "Continuous Improvement",
+                            "year": "2019",
+                            "description": "Promoted to process automation analyst, with the objective of reconciling with applications, seeking to eliminate repetitive work and the use of sheets of paper, creating tools to manage improvements, laboratory service, control of fit tests, confirmed feet and screen printing screens, production management and entry of new models."
                         }
                     ]
                 }
             ],
             "project": [
                 {
-                    "title" : "Game of Secret Number",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
-                    "link" : "https://jogo-secreto-lyart.vercel.app/"
+                    "tituloProject": "My Projects"
                 },
                 {
-                    "title" : "Yu-Gi-Oh",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
-                    "link" : "https://yu-gi-oh-chi.vercel.app/"
-                },
-                {
-                    "nome" : "2016"
-                },
-                {
-                    "nome" : "2021"
+                    "dadosProject": [
+                        {
+                            "title": "Game of Secret Number",
+                            "description": "Application developed with HTML, CSS, and JS. It selects a number between 1 and 100, and the user needs to input a number to guess it. The application will indicate whether the number is higher or lower than the one entered. It includes validations for empty guesses, negative numbers or numbers equal to 0, and numbers greater than 100. The application also features voice support for the user if they accept 'ALLOW' at the beginning.",
+                            "link": "https://jogo-secreto-lyart.vercel.app/",
+                            "image": "./assets/project/jogo_secreto.jpg",
+                            "alt": "Secret Number Game",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
+                            "text_repo": "Secret Number Game"
+                        },
+                        {
+                            "title": "Yu-Gi-Oh",
+                            "description": "Application developed with HTML, CSS, and JS. It displays cards of some Yu-Gi-Oh characters, with scrolling to the right and left, being a finite scroll. Developed during the DEV training immersion.",
+                            "link": "https://yu-gi-oh-chi.vercel.app/",
+                            "image": "./assets/project/yu_gi_oh.jpg",
+                            "alt": "Yu-Gi-Oh Game",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
+                            "text_repo": "Yu-Gi-Oh Game"
+                        }
+                    ]
                 }
             ]
         }
@@ -367,180 +413,198 @@
         {
             "index": [
                 {
-                    "nav" : [
+                    "nav": [
                         {
-                            "home" : "Principal"
+                            "home": "Principal"
                         },
                         {
-                            "about" : "Sobre mí"
+                            "about": "Sobre mí"
                         },
                         {
-                            "project" : "Proyectos"
+                            "project": "Proyectos"
+                        },
+                        {
+                            "curriculo": "Descargar CV"
                         }
                     ]
                 },
                 {
-                    "titulo" : "Hola! Soy"
+                    "titulo": "Hola! Soy"
                 },
                 {
-                    "ul":[
+                    "ul": [
                         {
-                            "full":"Full-Stack"
+                            "full": "Full-Stack"
                         },
                         {
-                            "front":"Front-End"
-                        },
-                        { 
-                            "back":"Back-End"
+                            "front": "Front-End"
                         },
                         {
-                            "dev":"Programador"
+                            "back": "Back-End"
                         },
                         {
-                            "name":"Gilvan Simões"
+                            "dev": "Programador"
+                        },
+                        {
+                            "name": "Gilvan Simões"
                         }
                     ]
                 },
                 {
-                    "paragrafo_1" : "Tengo experiencia en Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
+                    "paragrafo_1": "Tengo experiencia en Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
                 },
                 {
-                    "paragrafo_2" : "Conocimiento de lenguajes: Angular, React, Java, Python, C++ y habilidades de desarrollo."
+                    "paragrafo_2": "Conocimiento de lenguajes: Angular, React, Java, Python, C++ y habilidades de desarrollo."
                 },
                 {
-                    "paragrafo_3" : "Estudiando Typescript y Vue."
+                    "paragrafo_3": "Estudiando Typescript y Vue."
                 },
                 {
-                    "paragrafo_4" : "¿Vamos a hablar?"
+                    "paragrafo_4": "¿Vamos a hablar?"
                 },
                 {
-                    "titulo_rede" : "Accede a mis redes:"
+                    "titulo_rede": "Accede a mis redes:"
                 },
                 {
-                    "footer" : "Desarrollado por Gilvan Simões &copy;<span>2025</span>"
+                    "footer": "Desarrollado por Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
-                    "ptitulo" : "¿Cómo puedo ayudar?"
+                    "ptitulo": "¿Cómo puedo ayudar?"
                 },
                 {
-                    "pEmail" : "Su correo electrónico: email@ejemplo.com"
+                    "pEmail": "Su correo electrónico: email@ejemplo.com"
                 },
                 {
-                    "pNome" : "Su nombre."
+                    "pNome": "Su nombre."
                 },
                 {
-                    "pWhatsapp" : "Su whatsapp. (Opcional)"
+                    "pWhatsapp": "Su whatsapp. (Opcional)"
                 },
                 {
-                    "pMessage" : "Tu mensaje: ¿De qué quieres hablar?"
+                    "pMessage": "Tu mensaje: ¿De qué quieres hablar?"
                 },
                 {
-                    "pSubmit" : "Enviar"
+                    "pSubmit": "Enviar"
                 }
             ],
             "about": [
                 {
-                    "about_1" : "¡Hola! Soy Gilvan Simões, un desarrollador Full Stack y una de las cosas que amo en la vida es crear y entregar experiencias. He estado trabajando con desarrollo desde 2017, comencé como desarrollador Back-End con PHP creando sitios web y aplicaciones web."
+                    "about_1": "¡Hola! Soy Gilvan Simões, un desarrollador Full Stack y una de las cosas que amo en la vida es crear y entregar experiencias. He estado trabajando con desarrollo desde 2017, comencé como desarrollador Back-End con PHP creando sitios web y aplicaciones web."
                 },
                 {
-                    "about_2" : "Me considero un profesional altamente cualificado, versátil y ágil. Siempre tengo curiosidad por aprender más cuando se trata de nuevas tecnologías y codificación creativa."
+                    "about_2": "Me considero un profesional altamente cualificado, versátil y ágil. Siempre tengo curiosidad por aprender más cuando se trata de nuevas tecnologías y codificación creativa."
                 },
                 {
-                    "about_3" : "Graduado en Sistemas de Información - Unifacs(Universidad Salvador) en Feira de Santana - Bahia."
+                    "about_3": "Graduado en Sistemas de Información - Unifacs(Universidad Salvador) en Feira de Santana - Bahia."
                 },
                 {
-                    "about_4" : "En el curso de Lógica de Programación del año 2010, fue el despertar al mundo de la programación. A medida que fui avanzando con Pascal, C y C++, Java, Bases de Datos (PostgreSQL, MySQL, SQLite), PHP y lenguajes Web, decidí dedicarme a la programación."
+                    "about_4": "En el curso de Lógica de Programación del año 2010, fue el despertar al mundo de la programación. A medida que fui avanzando con Pascal, C y C++, Java, Bases de Datos (PostgreSQL, MySQL, SQLite), PHP y lenguajes Web, decidí dedicarme a la programación."
                 },
                 {
-                    "about_5" : "Comencé a profundizar en HTML, CSS, PHP y JavaScript con cursos en línea."
+                    "about_5": "Comencé a profundizar en HTML, CSS, PHP y JavaScript con cursos en línea."
                 },
                 {
-                    "titulo" : "Trayectoria"
+                    "titulo": "Trayectoria"
                 },
                 {
-                    "titulo_p" : "Carrera / Formación"
+                    "titulo_p": "Carrera / Formación"
                 },
                 {
-                    "timeline" : [
+                    "timeline": [
                         {
-                            "title" : "Primer trabajo",
-                            "year" : "2007",
-                            "description" : "Comenzó en Dass Nordeste & Artigos Esportivos como Multi-Operador, cosiendo las punteras y la parte trasera de las zapatillas de las marcas Nike y Fila."
+                            "title": "Primer trabajo",
+                            "year": "2007",
+                            "description": "Comenzó en Dass Nordeste & Artigos Esportivos como Multi-Operador, cosiendo las punteras y la parte trasera de las zapatillas de las marcas Nike y Fila."
                         },
                         {
-                            "title" : "PPCP",
-                            "year" : "2010",
-                            "description" : "Promovido a asistente de PPCP (Programación de Planificación y Control de Producción), planificación y control de producción, preparación e impresión de etiquetas y rótulos, informes y cuadros de mando en Excel."
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promovido a asistente de PPCP (Programación de Planificación y Control de Producción), planificación y control de producción, preparación e impresión de etiquetas y rótulos, informes y cuadros de mando en Excel."
                         },
                         {
-                            "title" : "Sistemas de Información",
-                            "year" : "2010",
-                            "description" : "Inicio de la graduación en la Universidad del Salvador (Unifacs) en Feira de Santana."
+                            "title": "Sistemas de Información",
+                            "year": "2010",
+                            "description": "Inicio de la graduación en la Universidad del Salvador (Unifacs) en Feira de Santana."
                         },
                         {
-                            "title" : "ALGOL y Pascal",
-                            "year" : "2011",
-                            "description" : "Inicio del curso de Lógica de Programación y Pascal."
+                            "title": "ALGOL y Pascal",
+                            "year": "2011",
+                            "description": "Inicio del curso de Lógica de Programación y Pascal."
                         },
                         {
-                            "title" : "Apoyo Técnico",
-                            "year" : "2012",
-                            "description" : "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidores NVR y cámaras IP, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
+                            "title": "Apoyo Técnico",
+                            "year": "2012",
+                            "description": "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidores NVR y cámaras IP, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
                         },
                         {
-                            "title" : "C y C++",
-                            "year" : "2012",
-                            "description" : "Fundamentos de programación, manipulación de memoria y gestión avanzada de memoria, estructuras de datos simples, introducción al sistema operativo, algoritmos y eficiencia, programación orientada a objetos (OOP), bibliotecas estándar (STL), diseño y arquitectura de software, programación genérica y multihilo y paralelismo."
+                            "title": "C y C++",
+                            "year": "2012",
+                            "description": "Fundamentos de programación, manipulación de memoria y gestión avanzada de memoria, estructuras de datos simples, introducción al sistema operativo, algoritmos y eficiencia, programación orientada a objetos (OOP), bibliotecas estándar (STL), diseño y arquitectura de software, programación genérica y multihilo y paralelismo."
                         },
                         {
-                            "title" : "Java",
-                            "year" : "2013",
-                            "description" : "Sintaxis básica, programación orientada a objetos (OOP), manejo de excepciones, colecciones y estructuras de datos, hilos y concurrencia, programación funcional, desarrollo de escritorio, introducción al desarrollo web y desarrollo móvil, conexión y manipulación de bases de datos con JDBC."
+                            "title": "Java",
+                            "year": "2013",
+                            "description": "Sintaxis básica, programación orientada a objetos (OOP), manejo de excepciones, colecciones y estructuras de datos, hilos y concurrencia, programación funcional, desarrollo de escritorio, introducción al desarrollo web y desarrollo móvil, conexión y manipulación de bases de datos con JDBC."
                         },
                         {
-                            "title" : "Desarrollo Web",
-                            "year" : "2014",
-                            "description" : "Creación y mantenimiento de sitios web y aplicaciones de internet con el lenguaje de marcado HTML y el mecanismo que agrega estilo, CSS, conceptos de servidor local como Nginx, Xampp y WampServer."
+                            "title": "Desarrollo Web",
+                            "year": "2014",
+                            "description": "Creación y mantenimiento de sitios web y aplicaciones de internet con el lenguaje de marcado HTML y el mecanismo que agrega estilo, CSS, conceptos de servidor local como Nginx, Xampp y WampServer."
                         },
                         {
-                            "title" : "PHP / Base de Datos",
-                            "year" : "2015",
-                            "description" : "Introducción a PHP, manejo de formularios, cómo recolectar y procesar datos enviados por formularios HTML usando PHP, trabajo con bases de datos, conectarse a MySQL, Postgres u otras bases de datos, ejecutar consultas (SELECT, INSERT, UPDATE, DELETE), administrar sesiones y cookies, programación orientada a objetos (OOP), uso de clases, objetos y conceptos como herencia y encapsulación, seguridad, mejores prácticas para evitar ataques como SQL Injection y XSS y creación de aplicaciones web dinámicas."
+                            "title": "PHP / Base de Datos",
+                            "year": "2015",
+                            "description": "Introducción a PHP, manejo de formularios, cómo recolectar y procesar datos enviados por formularios HTML usando PHP, trabajo con bases de datos, conectarse a MySQL, Postgres u otras bases de datos, ejecutar consultas (SELECT, INSERT, UPDATE, DELETE), administrar sesiones y cookies, programación orientada a objetos (OOP), uso de clases, objetos y conceptos como herencia y encapsulación, seguridad, mejores prácticas para evitar ataques como SQL Injection y XSS y creación de aplicaciones web dinámicas."
                         },
                         {
-                            "title" : "JavaScript",
-                            "year" : "2016",
-                            "description" : "Curso de JavaScript desde básico a avanzado, fundamentos del lenguaje, introducción a JavaScript y su historia, manipulación del DOM, eventos, funciones, programación asíncrona, conceptos de objetos, modularización, introducción a la librería React, framework Angular y Node.js, ejecución de JavaScript en el lado del servidor."
+                            "title": "JavaScript",
+                            "year": "2016",
+                            "description": "Curso de JavaScript desde básico a avanzado, fundamentos del lenguaje, introducción a JavaScript y su historia, manipulación del DOM, eventos, funciones, programación asíncrona, conceptos de objetos, modularización, introducción a la librería React, framework Angular y Node.js, ejecución de JavaScript en el lado del servidor."
                         },
                         {
-                            "title" : "Automatización de Procesos",
-                            "year" : "2017",
-                            "description" : "Desarrollo de aplicaciones web para colaborar con el sector productivo, cronómetro de cuenta atrás y progresivo para ayuda en cambio de layout y montaje, aplicación para reservas de snacks con lectura de credencial eliminando uso de papel y largas colas, aplicación para reservas de comida en fines de semana y festivos, aplicación para sorteos y votación de opiniones de empleados sobre convenios de intercambio de vacaciones."
+                            "title": "Automatización de Procesos",
+                            "year": "2017",
+                            "description": "Desarrollo de aplicaciones web para colaborar con el sector productivo, cronómetro de cuenta atrás y progresivo para ayuda en cambio de layout y montaje, aplicación para reservas de snacks con lectura de credencial eliminando uso de papel y largas colas, aplicación para reservas de comida en fines de semana y festivos, aplicación para sorteos y votación de opiniones de empleados sobre convenios de intercambio de vacaciones."
                         },
                         {
-                            "title" : "Mejora Continua",
-                            "year" : "2019",
-                            "description" : "Promovido a analista de automatización de procesos, con el objetivo de conciliar con las aplicaciones, buscando eliminar trabajos repetitivos y uso de hojas de papel, creando herramientas para gestionar mejoras, servicio de laboratorio, control de pruebas de ajuste, pies confirmados y pantallas de serigrafía, gestión de producción e ingreso de nuevos modelos."
+                            "title": "Mejora Continua",
+                            "year": "2019",
+                            "description": "Promovido a analista de automatización de procesos, con el objetivo de conciliar con las aplicaciones, buscando eliminar trabajos repetitivos y uso de hojas de papel, creando herramientas para gestionar mejoras, servicio de laboratorio, control de pruebas de ajuste, pies confirmados y pantallas de serigrafía, gestión de producción e ingreso de nuevos modelos."
                         }
                     ]
                 }
             ],
             "project": [
                 {
-                    "title" : "Jogo do Numero Secreto",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
-                    "link" : "https://jogo-secreto-lyart.vercel.app/"
+                    "tituloProject": "Mis Proyectos"
                 },
                 {
-                    "title" : "Yu-Gi-Oh",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
-                    "link" : "https://yu-gi-oh-chi.vercel.app/"
-                },
-                {
-                    "nome" : "2016"
-                },
-                {
-                    "nome" : "2021"
+                    "dadosProject": [
+                        {
+                            "title": "Juego del Número Secreto",
+                            "description": "Aplicación desarrollada con HTML, CSS y JS. Elige un número entre 1 y 100, y el usuario debe ingresar un número para adivinarlo. La aplicación indicará si el número es mayor o menor que el ingresado. Hay validaciones para intentos vacíos, números negativos o iguales a 0, y números mayores que 100. La aplicación también cuenta con soporte de voz para el usuario, en caso de que acepte 'ALLOW' al inicio.",
+                            "link": "https://jogo-secreto-lyart.vercel.app/",
+                            "image": "./assets/project/jogo_secreto.jpg",
+                            "alt": "Juego del Número Secreto",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
+                            "text_repo": "Juego del Número Secreto"
+                        },
+                        {
+                            "title": "Yu-Gi-Oh",
+                            "description": "Aplicación desarrollada con HTML, CSS y JS. Muestra cartas de algunos personajes de Yu-Gi-Oh, con desplazamiento hacia la derecha e izquierda, siendo el desplazamiento finito. Desarrollado en la inmersión de la Formación DEV.",
+                            "link": "https://yu-gi-oh-chi.vercel.app/",
+                            "image": "./assets/project/yu_gi_oh.jpg",
+                            "alt": "Yu-Gi-Oh Juego",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
+                            "text_repo": "Yu-Gi-Oh Juego"
+                        }
+                    ]
                 }
             ]
         }
@@ -549,180 +613,198 @@
         {
             "index": [
                 {
-                    "nav" : [
+                    "nav": [
                         {
-                            "home" : "Accueil"
+                            "home": "Accueil"
                         },
                         {
-                            "about" : "Sur moi"
+                            "about": "Sur moi"
                         },
                         {
-                            "project" : "Projets"
+                            "project": "Projets"
+                        },
+                        {
+                            "curriculo": "Télécharger le CV"
                         }
                     ]
                 },
                 {
-                    "titulo" : "Hé! Je suis"
+                    "titulo": "Hé! Je suis"
                 },
                 {
-                    "ul":[
+                    "ul": [
                         {
-                            "full":"Full-Stack"
+                            "full": "Full-Stack"
                         },
                         {
-                            "front":"Front-End"
-                        },
-                        { 
-                            "back":"Back-End"
+                            "front": "Front-End"
                         },
                         {
-                            "dev":"Développeur"
+                            "back": "Back-End"
                         },
                         {
-                            "name":"Gilvan Simões"
+                            "dev": "Développeur"
+                        },
+                        {
+                            "name": "Gilvan Simões"
                         }
                     ]
                 },
                 {
-                    "paragrafo_1" : "J'ai une expérience en Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
+                    "paragrafo_1": "J'ai une expérience en Bootstrap, JavaScript, PHP, Node, PostgreSQL, MySQL."
                 },
                 {
-                    "paragrafo_2" : "Connaissance des langages : Angular, React, Java, Python, C++ et compétences en développement."
+                    "paragrafo_2": "Connaissance des langages : Angular, React, Java, Python, C++ et compétences en développement."
                 },
                 {
-                    "paragrafo_3" : "Étudier Typescript et Vue."
+                    "paragrafo_3": "Étudier Typescript et Vue."
                 },
                 {
-                    "paragrafo_4" : "Parlons-en ?"
+                    "paragrafo_4": "Parlons-en ?"
                 },
                 {
-                    "titulo_rede" : "Accéder à mes réseaux:"
+                    "titulo_rede": "Accéder à mes réseaux:"
                 },
                 {
-                    "footer" : "Développé par Gilvan Simões &copy;<span>2025</span>"
+                    "footer": "Développé par Gilvan Simões &copy;<span>2025</span>"
                 },
                 {
-                    "ptitulo" : "Comment puis-je aider?"
+                    "ptitulo": "Comment puis-je aider?"
                 },
                 {
-                    "pEmail" : "Votre email : email@exemple.com"
+                    "pEmail": "Votre email : email@exemple.com"
                 },
                 {
-                    "pNome" : "Votre nom."
+                    "pNome": "Votre nom."
                 },
                 {
-                    "pWhatsapp" : "Votre WhatsApp. (Facultatif)"
+                    "pWhatsapp": "Votre WhatsApp. (Facultatif)"
                 },
                 {
-                    "pMessage" : "Votre message : De quoi souhaitez-vous parler?"
+                    "pMessage": "Votre message : De quoi souhaitez-vous parler?"
                 },
                 {
-                    "pSubmit" : "Envoyer"
+                    "pSubmit": "Envoyer"
                 }
             ],
             "about": [
                 {
-                    "about_1" : "Bonjour! Je suis Gilvan Simões, développeur Full Stack et une chose que j'aime dans la vie, c'est créer et proposer des expériences.Je travaille dans le développement depuis 2017, en commençant comme développeur Back-End avec PHP créant des sites Web et des applications Web."
+                    "about_1": "Bonjour! Je suis Gilvan Simões, développeur Full Stack et une chose que j'aime dans la vie, c'est créer et proposer des expériences.Je travaille dans le développement depuis 2017, en commençant comme développeur Back-End avec PHP créant des sites Web et des applications Web."
                 },
                 {
-                    "about_2" : "Je me considère comme un professionnel bien formé, polyvalent et agile. Je suis toujours curieux d'en savoir plus en matière de nouvelles technologies et de codage créatif."
+                    "about_2": "Je me considère comme un professionnel bien formé, polyvalent et agile. Je suis toujours curieux d'en savoir plus en matière de nouvelles technologies et de codage créatif."
                 },
                 {
-                    "about_3" : "Gradué en Systèmes d'Information - Unifacs(Université Salvador) à Feira de Santana - Bahia."
+                    "about_3": "Gradué en Systèmes d'Information - Unifacs(Université Salvador) à Feira de Santana - Bahia."
                 },
                 {
-                    "about_4" : "Dans le cours de Logique de Programmation en 2010, ce fut l'éveil au monde de la programmation. Au fur et à mesure de mes progrès en Pascal, C et C++, Java, les bases de données (PostgreSQL, MySQL, SQLite), PHP et les langages Web, j'ai décidé de me consacrer à la programmation."
+                    "about_4": "Dans le cours de Logique de Programmation en 2010, ce fut l'éveil au monde de la programmation. Au fur et à mesure de mes progrès en Pascal, C et C++, Java, les bases de données (PostgreSQL, MySQL, SQLite), PHP et les langages Web, j'ai décidé de me consacrer à la programmation."
                 },
                 {
-                    "about_5" : "J'ai commencé à approfondir mes connaissances en HTML, CSS, PHP et JavaScript avec des cours en ligne."
+                    "about_5": "J'ai commencé à approfondir mes connaissances en HTML, CSS, PHP et JavaScript avec des cours en ligne."
                 },
                 {
-                    "titulo" : "Trajectoire"
+                    "titulo": "Trajectoire"
                 },
                 {
-                    "titulo_p" : "Carrière / Entraînement"
+                    "titulo_p": "Carrière / Entraînement"
                 },
                 {
-                    "timeline" : [
+                    "timeline": [
                         {
-                            "title" : "Premier Emploi",
-                            "year" : "2007",
-                            "description" : "J'ai commencé chez Dass Nordeste & Artigos Esportivos en tant que multi-opérateur, cousant les embouts et les arrières des baskets des marques Nike et Fila."
+                            "title": "Premier Emploi",
+                            "year": "2007",
+                            "description": "J'ai commencé chez Dass Nordeste & Artigos Esportivos en tant que multi-opérateur, cousant les embouts et les arrières des baskets des marques Nike et Fila."
                         },
                         {
-                            "title" : "PPCP",
-                            "year" : "2010",
-                            "description" : "Promu assistant PPCP (Production Planning et Control Programming), planification et contrôle de la production, préparation et impression d'étiquettes et de tags, rapports et tableaux de bord sous Excel."
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promu assistant PPCP (Production Planning et Control Programming), planification et contrôle de la production, préparation et impression d'étiquettes et de tags, rapports et tableaux de bord sous Excel."
                         },
                         {
-                            "title" : "Systèmes d'Information",
-                            "year" : "2010",
-                            "description" : "Début des études à l'Université de Salvador (Unifacs) à Feira de Santana."
+                            "title": "Systèmes d'Information",
+                            "year": "2010",
+                            "description": "Début des études à l'Université de Salvador (Unifacs) à Feira de Santana."
                         },
                         {
-                            "title" : "ALGOL et Pascal",
-                            "year" : "2011",
-                            "description" : "Début du cours Programmation Logique et Pascal."
+                            "title": "ALGOL et Pascal",
+                            "year": "2011",
+                            "description": "Début du cours Programmation Logique et Pascal."
                         },
                         {
-                            "title" : "Support Technique",
-                            "year" : "2012",
-                            "description" : "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, serveurs NVR et caméras IP, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
+                            "title": "Support Technique",
+                            "year": "2012",
+                            "description": "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, serveurs NVR et caméras IP, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
                         },
                         {
-                            "title" : "C et C++",
-                            "year" : "2012",
-                            "description" : "Fondamentaux de la programmation, manipulation de la mémoire et gestion avancée de la mémoire, structures de données simples, introduction au système d'exploitation, algorithmes et efficacité, programmation orientée objet (OOP), bibliothèques standard (STL), conception et architecture de logiciels, programmation générique et multithreading et parallélisme."
+                            "title": "C et C++",
+                            "year": "2012",
+                            "description": "Fondamentaux de la programmation, manipulation de la mémoire et gestion avancée de la mémoire, structures de données simples, introduction au système d'exploitation, algorithmes et efficacité, programmation orientée objet (OOP), bibliothèques standard (STL), conception et architecture de logiciels, programmation générique et multithreading et parallélisme."
                         },
                         {
-                            "title" : "Java",
-                            "year" : "2013",
-                            "description" : "Syntaxe de base, programmation orientée objet (POO), gestion des exceptions, collections et structures de données, threads et concurrence, programmation fonctionnelle, développement de bureau, introduction au développement Web et au développement mobile, connexion et manipulation de bases de données avec JDBC."
+                            "title": "Java",
+                            "year": "2013",
+                            "description": "Syntaxe de base, programmation orientée objet (POO), gestion des exceptions, collections et structures de données, threads et concurrence, programmation fonctionnelle, développement de bureau, introduction au développement Web et au développement mobile, connexion et manipulation de bases de données avec JDBC."
                         },
                         {
-                            "title" : "Développement Web",
-                            "year" : "2014",
-                            "description" : "Création et maintenance de sites Web et d'applications Internet avec le langage de balisage HTML et le mécanisme qui ajoute du style, du CSS, des concepts de serveur local tels que Nginx, Xampp et WampServer."
+                            "title": "Développement Web",
+                            "year": "2014",
+                            "description": "Création et maintenance de sites Web et d'applications Internet avec le langage de balisage HTML et le mécanisme qui ajoute du style, du CSS, des concepts de serveur local tels que Nginx, Xampp et WampServer."
                         },
                         {
-                            "title" : "PHP / Base de Données",
-                            "year" : "2015",
-                            "description" : "Introduction à PHP, manipulation de formulaires, comment collecter et traiter les données envoyées par les formulaires HTML en utilisant PHP, travailler avec des bases de données, se connecter à MySQL, Postgres ou d'autres bases de données, exécuter des requêtes (SELECT, INSERT, UPDATE, DELETE), gérer les sessions et les cookies, programmation orientée objet (POO), utiliser des classes, des objets et des concepts tels que l'héritage et l'encapsulation, la sécurité, les bonnes pratiques pour éviter les attaques telles que l'injection SQL et XSS et créer des applications Web dynamiques."
+                            "title": "PHP / Base de Données",
+                            "year": "2015",
+                            "description": "Introduction à PHP, manipulation de formulaires, comment collecter et traiter les données envoyées par les formulaires HTML en utilisant PHP, travailler avec des bases de données, se connecter à MySQL, Postgres ou d'autres bases de données, exécuter des requêtes (SELECT, INSERT, UPDATE, DELETE), gérer les sessions et les cookies, programmation orientée objet (POO), utiliser des classes, des objets et des concepts tels que l'héritage et l'encapsulation, la sécurité, les bonnes pratiques pour éviter les attaques telles que l'injection SQL et XSS et créer des applications Web dynamiques."
                         },
                         {
-                            "title" : "JavaScript",
-                            "year" : "2016",
-                            "description" : "Cours JavaScript du basique au avancé, fondamentaux du langage, introduction à JavaScript et son histoire, manipulation DOM, événements, fonctions, programmation asynchrone, concepts d'objets, modularisation, introduction à la bibliothèque React, framework Angular et Node.js, exécution de JavaScript côté serveur."
+                            "title": "JavaScript",
+                            "year": "2016",
+                            "description": "Cours JavaScript du basique au avancé, fondamentaux du langage, introduction à JavaScript et son histoire, manipulation DOM, événements, fonctions, programmation asynchrone, concepts d'objets, modularisation, introduction à la bibliothèque React, framework Angular et Node.js, exécution de JavaScript côté serveur."
                         },
                         {
-                            "title" : "Automatisation des Processus",
-                            "year" : "2017",
-                            "description" : "Développement d'applications web pour collaborer avec le secteur de la production, compte à rebours et minuterie progressive pour aider à changer la mise en page et la configuration, application pour les réservations de collations avec lecture de badges, éliminant l'utilisation de papier et les longues files d'attente, application pour les réservations de déjeuner les week-ends et jours fériés, application pour les tirages au sort et vote pour les opinions des employés sur les accords d'échange de vacances."
+                            "title": "Automatisation des Processus",
+                            "year": "2017",
+                            "description": "Développement d'applications web pour collaborer avec le secteur de la production, compte à rebours et minuterie progressive pour aider à changer la mise en page et la configuration, application pour les réservations de collations avec lecture de badges, éliminant l'utilisation de papier et les longues files d'attente, application pour les réservations de déjeuner les week-ends et jours fériés, application pour les tirages au sort et vote pour les opinions des employés sur les accords d'échange de vacances."
                         },
                         {
-                            "title" : "Amélioration Continue",
-                            "year" : "2019",
-                            "description" : "Promu analyste en automatisation des processus, avec pour objectif de se réconcilier avec les applications, en cherchant à éliminer le travail répétitif et l'utilisation de feuilles de papier, en créant des outils pour gérer les améliorations, le service de laboratoire, le contrôle des tests d'ajustement, les pieds confirmés et les écrans de sérigraphie, la gestion de la production et l'entrée de nouveaux modèles."
+                            "title": "Amélioration Continue",
+                            "year": "2019",
+                            "description": "Promu analyste en automatisation des processus, avec pour objectif de se réconcilier avec les applications, en cherchant à éliminer le travail répétitif et l'utilisation de feuilles de papier, en créant des outils pour gérer les améliorations, le service de laboratoire, le contrôle des tests d'ajustement, les pieds confirmés et les écrans de sérigraphie, la gestion de la production et l'entrée de nouveaux modèles."
                         }
                     ]
                 }
             ],
             "project": [
                 {
-                    "title" : "Jogo do Numero Secreto",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Escolhe um número entre 1 a 100 e o usuário precisa informar um número para acertar, na aplicação ira informar se o número e maior ou menor ao inserido. Ha validações de chute vazio, com número negativo ou igual a 0 e número maior que 100. Aplicação tambem possui suporte de voz para o usuário, caso o usuário aceite 'ALLOW' no início.",
-                    "link" : "https://jogo-secreto-lyart.vercel.app/"
+                    "tituloProject": "Mes Projets"
                 },
                 {
-                    "title" : "Yu-Gi-Oh",
-                    "description" : "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
-                    "link" : "https://yu-gi-oh-chi.vercel.app/"
-                },
-                {
-                    "nome" : "2016"
-                },
-                {
-                    "nome" : "2021"
+                    "dadosProject": [
+                        {
+                            "title": "Jeu du Nombre Secret",
+                            "description": "Application développée avec HTML, CSS et JS. Elle choisit un nombre entre 1 et 100, et l'utilisateur doit saisir un nombre pour le deviner. L'application indiquera si le nombre est supérieur ou inférieur au nombre saisi. Il existe des validations pour les tentatives vides, les nombres négatifs ou égaux à 0, ainsi que les nombres supérieurs à 100. L'application offre également un support vocal pour l'utilisateur, si celui-ci accepte 'ALLOW' au début.",
+                            "link": "https://jogo-secreto-lyart.vercel.app/",
+                            "image": "./assets/project/jogo_secreto.jpg",
+                            "alt": "Jeu du Nombre Secret",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://jogo-secreto-lyart.vercel.app/",
+                            "text_repo": "Jeu du Nombre Secret"
+                        },
+                        {
+                            "title": "Yu-Gi-Oh",
+                            "description": "Application développée avec HTML, CSS et JS. Exibe card de alguns personnages du Yu-Gi-Oh, avec défilement à droite et à gauche, étant le défilement fini. Développé lors de l'immersion de la Formation DEV.",
+                            "link": "https://yu-gi-oh-chi.vercel.app/",
+                            "image": "./assets/project/yu_gi_oh.jpg",
+                            "alt": "Yu-Gi-Oh Card Jeu",
+                            "logo_lang": "fa-html5",
+                            "logo_lang_2": "fa-css3",
+                            "logo_lang_3": "fa-js",
+                            "link_repo": "https://yu-gi-oh-chi.vercel.app/",
+                            "text_repo": "Yu-Gi-Oh Jeu"
+                        }
+                    ]
                 }
             ]
         }

@@ -30,6 +30,9 @@
 .fa-js {
   color: yellow;
 }
+.fa-react {
+  color: #61DAFB;
+}
 
 .gallery-container h1 {
     text-align: center;
@@ -135,21 +138,26 @@ body.night .gallery-container h1 {
 }
 
 @media (max-width: 1200px) {
-    .main {
-        display: block;
-        padding: 1rem;
-        gap: 0;
-    }
-    .nav a {
-        font-size: 1.5em;
-    }
-    .nav .lang {
-        gap: 10%;
-    }
-    .nav .toggle {
-        height: 25px;
-    }
-    .nav .toggle::before {
-        top: 20%;
-    }
+  body {
+    overflow: hidden;
+  }
+  .main {
+    display: block;
+    padding: 1rem;
+    gap: 0;
+    height: calc(100% - 145px);
+    overflow: auto;
+  }
+  .nav a {
+    font-size: 1.5em;
+  }
+  .nav .lang {
+    gap: 10%;
+  }
+  .nav .toggle {
+    height: 25px;
+  }
+  .nav .toggle::before {
+    top: 20%;
+  }
 }

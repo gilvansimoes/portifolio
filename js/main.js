@@ -8,14 +8,14 @@ let bg = document.querySelector('body');
 let h1 = document.querySelector('h1');
 let li = document.querySelectorAll('body .txt li');
 list.forEach(element => {
-    element.addEventListener("mouseenter", function(event){
+    element.addEventListener("mouseenter", function (event) {
         let color = event.target.style.getPropertyValue('--clr');
         bg.style.backgroundColor = color;
         bg.style.color = '#fff';
         h1.style.color = '#fff';
         li.forEach(lista => lista.style.color = '#fff')
     })
-    element.addEventListener("mouseleave", function(event){
+    element.addEventListener("mouseleave", function (event) {
         bg.style.backgroundColor = '#fff';
         bg.style.color = '#000';
         h1.style.color = '#000';
@@ -35,7 +35,7 @@ window.addEventListener('resize', updateDimensions);
 let selecionado = document.querySelectorAll('.flag img');
 
 selecionado.forEach(element => {
-    element.addEventListener('click', function() {
+    element.addEventListener('click', function () {
         selecionado.forEach(el => el.classList.remove('selecionado'));
         this.classList.add('selecionado');
     });
@@ -78,6 +78,9 @@ let corpoEmail = document.getElementById('corpoEmail');
 let email = document.getElementById('emails');
 let nome = document.getElementById('name');
 let message = document.getElementById('message');
+let gallery = document.getElementById('gallery');
+let titleProject = document.getElementById('titleProject');
+let btnCurriculo = document.getElementById('curriculo');
 
 let main__about = document.getElementById('main__about');
 let about_1 = document.getElementById('about_1');
@@ -100,8 +103,12 @@ function pt() {
     if (titulos) {
         cleanContent();
         dadosIndex('pt');
-    }else{
-        dadosIndex2('pt');        
+    } else {
+        dadosIndex2('pt');
+    }
+    if (gallery) {
+        cleanProject();
+        dadosIndex3('pt');
     }
 }
 
@@ -116,8 +123,12 @@ function en() {
     if (titulos) {
         cleanContent();
         dadosIndex('en');
-    }else{
-        dadosIndex2('en');        
+    } else {
+        dadosIndex2('en');
+    }
+    if (gallery) {
+        cleanProject();
+        dadosIndex3('en');
     }
 }
 
@@ -132,8 +143,12 @@ function es() {
     if (titulos) {
         cleanContent();
         dadosIndex('es');
-    }else{
-        dadosIndex2('es');        
+    } else {
+        dadosIndex2('es');
+    }
+    if (gallery) {
+        cleanProject();
+        dadosIndex3('es');
     }
 }
 
@@ -148,8 +163,12 @@ function fr() {
     if (titulos) {
         cleanContent();
         dadosIndex('fr');
-    }else{
-        dadosIndex2('fr');        
+    } else {
+        dadosIndex2('fr');
+    }
+    if (gallery) {
+        cleanProject();
+        dadosIndex3('fr');
     }
 }
 
@@ -189,6 +208,11 @@ function cleanAbout() {
     main__content__titulo.innerHTML = '';
     main__content__titulo_p.innerHTML = '';
 }
+function cleanProject() {
+    titleProject.innerHTML = '';
+    gallery.innerHTML = '';
+    
+}
 function dadosIndex(idioma) {
     fetch("./assets/json/dados.json", {
         headers: {
@@ -196,34 +220,38 @@ function dadosIndex(idioma) {
         }
     })
     .then(response => response.json())
-    .then((dados) => {    
-            switch (idioma) {
-                case 'pt':
-                    dados.pt.map(item => {
-                        buscaDados(item);
-                    })
-                break;
-                case 'en':
-                    dados.en.map(item => {
-                        buscaDados(item);
-                    })
-                break;
-                case 'es':
-                    dados.es.map(item => {
-                        buscaDados(item);
-                    })
-                break;
-                case 'fr':
-                    dados.fr.map(item => {
-                        buscaDados(item);
-                    })
-                break;
-            }
+    .then((dados) => {
+        switch (idioma) {
+            case 'pt':
+                dados.pt.map(item => {
+                    buscaDados(item);
+                })
+            break;
+            case 'en':
+                dados.en.map(item => {
+                    buscaDados(item);
+                })
+            break;
+            case 'es':
+                dados.es.map(item => {
+                    buscaDados(item);
+                })
+            break;
+            case 'fr':
+                dados.fr.map(item => {
+                    buscaDados(item);
+                })
+            break;
+        }
     })
 }
 
 function dadosIndex2(idioma) {
-    fetch("./assets/json/dados.json")
+    fetch("./assets/json/dados.json", {
+        headers: {
+            'Accept-Language': idioma
+        }
+    })
     .then(response => response.json())
     .then((dados) => {
         switch (idioma) {
@@ -251,8 +279,42 @@ function dadosIndex2(idioma) {
     })
 }
 
+function dadosIndex3(idioma) {
+    fetch("./assets/json/dados.json", {
+        headers: {
+            'Accept-Language': idioma
+        }
+    })
+    .then(response => response.json())
+    .then((dados) => {
+        switch (idioma) {
+            case 'pt':
+                dados.pt.map(item => {
+                    buscaDados3(item);
+                })
+            break;
+            case 'en':
+                dados.en.map(item => {
+                    buscaDados3(item);
+                })
+            break;
+            case 'es':
+                dados.es.map(item => {
+                    buscaDados3(item);
+                })
+            break;
+            case 'fr':
+                dados.fr.map(item => {
+                    buscaDados3(item);
+                })
+            break;
+        }
+    })
+}
+
 function buscaDados(item) {
     if (item.index[0].nav !== undefined) {
+        btnCurriculo.innerText = `${item.index[0].nav[3].curriculo}`;
         home.innerHTML += `${item.index[0].nav[0].home}`;
         about.innerHTML += `${item.index[0].nav[1].about}`;
         project.innerHTML += `${item.index[0].nav[2].project}`;
@@ -288,7 +350,7 @@ function buscaDados(item) {
     sendEmail(item.index[9].ptitulo, item.index[10].pEmail, item.index[11].pNome, item.index[12].pWhatsapp, item.index[13].pMessage, item.index[14].pSubmit)
 }
 
-function buscaDados2(item) {  
+function buscaDados2(item) {
     if (item.index[0].nav !== undefined) {
         home.innerHTML += `${item.index[0].nav[0].home}`;
         about.innerHTML += `${item.index[0].nav[1].about}`;
@@ -328,11 +390,11 @@ function buscaDados2(item) {
         if (item.about[7].timeline !== undefined) {
             for (let i = 0; i < item.about[7].timeline.length; i++) {
                 timeline.innerHTML += `
-                ${i == 0 ? '<div class="timeline__section work">' : 
-                    i == 1 ? '<div class="timeline__section work">' : 
-                    i == 4 ? '<div class="timeline__section work">' : 
-                    i == 10 ? '<div class="timeline__section work">' : 
-                    i == 11 ? '<div class="timeline__section work">' : '<div class="timeline__section study">'}
+                ${i == 0 ? '<div class="timeline__section work">' :
+                        i == 1 ? '<div class="timeline__section work">' :
+                            i == 4 ? '<div class="timeline__section work">' :
+                                i == 10 ? '<div class="timeline__section work">' :
+                                    i == 11 ? '<div class="timeline__section work">' : '<div class="timeline__section study">'}
                         <div class="timeline__left">
                             <div class="timeline__date">
                                 <div class="timeline__title">${item.about[7].timeline[i].title}</div>
@@ -346,11 +408,11 @@ function buscaDados2(item) {
                             <div class="timeline__bullet"></div>
                         </div>
                         <div class="timeline__right">
-                        ${i == 0 ? '<div class="work">' : 
-                            i == 1 ? '<div class="work">' : 
-                            i == 4 ? '<div class="work">' : 
-                            i == 10 ? '<div class="work">' : 
-                            i == 11 ? '<div class="work">' : '<div class="study">'}
+                        ${i == 0 ? '<div class="work">' :
+                        i == 1 ? '<div class="work">' :
+                            i == 4 ? '<div class="work">' :
+                                i == 10 ? '<div class="work">' :
+                                    i == 11 ? '<div class="work">' : '<div class="study">'}
                                 <div class="timeline__content">
                                     ${item.about[7].timeline[i].description}
                                 </div>
@@ -362,98 +424,124 @@ function buscaDados2(item) {
         }
     }
 }
+
+function buscaDados3(item) {
+    titleProject.innerHTML += `${item.project[0].tituloProject}`;
+    
+    if (item.project[1].dadosProject[0].title !== undefined) {
+        item.project[1].dadosProject.forEach(function(element) {
+            gallery.innerHTML += `
+            <div class="gallery-item">
+                <img src="${element.image}" alt="${element.title}">
+                <div class="overlay">
+                    <div class="h3">
+                        <h3>${element.title}</h3>
+                        <div class="icon">
+                            <i class="fa-brands ${element.logo_lang}"></i>
+                            <i class="fa-brands ${element.logo_lang_2}"></i>
+                            <i class="fa-brands ${element.logo_lang_3}"></i>
+                        </div>
+                    </div>
+                    <p>${element.description}</p>
+                    <a href="${element.link}" target="_blank">${element.title}</a>
+                </div>
+            </div>`;
+        });
+    }
+}
+
 function sendEmail(ptitulo, pEmail, pNome, pWhatsapp, pMessage, pSubmit) {
-    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};    
+    window.formbutton = window.formbutton || function () { (formbutton.q = formbutton.q || []).push(arguments) };
     formbutton("create", {
-      action: "https://formspree.io/f/mldjnwzd",
-      title: ptitulo,
-      fields: [
-        { 
-          type: "email", 
-          label: "Email:", 
-          name: "email",
-          required: true,
-          placeholder: pEmail
-        },
-        { 
-          type: "text", 
-          label: "Name:", 
-          name: "name",
-          required: true,
-          placeholder: pNome
-        },
-        { 
-          type: "text", 
-          label: "Whatsapp:", 
-          name: "whatsapp",
-          required: false,
-          placeholder: pWhatsapp
-        },
-        {
-          type: "textarea",
-          label: "Message:",
-          name: "message",
-          required: true,
-          placeholder: pMessage
-        },
-        
-        { type: "submit", value: pSubmit}      
-      ],
-      styles: {
-        title: {
-          backgroundColor: "gray"
-        },
-        button: {
-          backgroundColor: "rgb(158 158 158 / 0%)",
-          backgroundPosition: "center",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-          backgroundImage: "url(./assets/gmail.svg)",
-          bottom: "2.5%",
-          right: "0",
-          zIndex: "10",
-          borderRadius: "0",
-          boxShadow: "none",
-          filter: "drop-shadow(dimgray 0px 0px 6px)",
-          display: "none"
-        },
-        input: {
-          backgroundColor: "#d9edf7",
-          height: "30px",
-          borderRadius: "7px",
-          padding: "5px 10px",
-          fontSize: "16px"
-        },
-        path: {
-          display: "none"
+        action: "https://formspree.io/f/mldjnwzd",
+        title: ptitulo,
+        fields: [
+            {
+                type: "email",
+                label: "Email:",
+                name: "email",
+                required: true,
+                placeholder: pEmail
+            },
+            {
+                type: "text",
+                label: "Name:",
+                name: "name",
+                required: true,
+                placeholder: pNome
+            },
+            {
+                type: "text",
+                label: "Whatsapp:",
+                name: "whatsapp",
+                required: false,
+                placeholder: pWhatsapp
+            },
+            {
+                type: "textarea",
+                label: "Message:",
+                name: "message",
+                required: true,
+                placeholder: pMessage
+            },
+
+            { type: "submit", value: pSubmit }
+        ],
+        styles: {
+            title: {
+                backgroundColor: "gray"
+            },
+            button: {
+                backgroundColor: "rgb(158 158 158 / 0%)",
+                backgroundPosition: "center",
+                backgroundSize: "contain",
+                backgroundRepeat: "no-repeat",
+                backgroundImage: "url(./assets/gmail.svg)",
+                bottom: "2.5%",
+                right: "0",
+                zIndex: "10",
+                borderRadius: "0",
+                boxShadow: "none",
+                filter: "drop-shadow(dimgray 0px 0px 6px)",
+                display: "none"
+            },
+            input: {
+                backgroundColor: "#d9edf7",
+                height: "30px",
+                borderRadius: "7px",
+                padding: "5px 10px",
+                fontSize: "16px"
+            },
+            path: {
+                display: "none"
+            }
         }
-      }
     });
 }
 
 const main = document.getElementById("main");
 
 if (main) {
-    window.addEventListener("scroll", () => { 
-    const elemento = document.getElementById("formbutton-button");
-    const limite = 100; 
-  
-    const alturaTotal = document.documentElement.scrollHeight;
-    const alturaVisivel = window.innerHeight;
-    const posicaoScroll = window.scrollY;
-  
-    if (alturaTotal - (posicaoScroll + alturaVisivel) <= limite) {
-      elemento.style.display = "block"; 
-    } else {
-      elemento.style.display = "none"; 
-    }
-  });
+    window.addEventListener("scroll", () => {
+        const elemento = document.getElementById("formbutton-button");
+        const limite = 100;
+
+        const alturaTotal = document.documentElement.scrollHeight;
+        const alturaVisivel = window.innerHeight;
+        const posicaoScroll = window.scrollY;
+
+        if (alturaTotal - (posicaoScroll + alturaVisivel) <= limite) {
+            elemento.style.display = "block";
+        } else {
+            elemento.style.display = "none";
+        }
+    });
 }
 
 const curriculo = document.getElementById('curriculo');
 
 if (curriculo) {
-    curriculo.addEventListener('click', function() {
+    curriculo.addEventListener('click', function () {
         const curriculoUrl = './assets/json/Gilvan Simoes de Barros.pdf';
         const link = document.createElement('a');
         link.href = curriculoUrl;
