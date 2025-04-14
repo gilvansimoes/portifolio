@@ -439,9 +439,9 @@ function buscaDados3(item) {
                     <div class="h3">
                         <h3>${element.title}</h3>
                         <div class="icon">
-                            <i class="fa-brands ${element.logo_lang}"></i>
-                            <i class="fa-brands ${element.logo_lang_2}"></i>
-                            <i class="fa-brands ${element.logo_lang_3}"></i>
+                            <i class="${element.logo_lang}"></i>
+                            <i class="${element.logo_lang_2}"></i>
+                            <i class="${element.logo_lang_3}"></i>
                         </div>
                     </div>
                     <p>${element.description}</p>

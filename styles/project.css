@@ -41,6 +41,10 @@
   color: red;
   font-size: x-large;
 }
+.fa-cookie, .fa-circle-dot {
+  color:darksalmon;
+  font-size: xx-large;
+}
 
 .gallery-container h1 {
     text-align: center;

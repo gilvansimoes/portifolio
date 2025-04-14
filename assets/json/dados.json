@@ -176,9 +176,9 @@
                             "link": "https://jogo-secreto-lyart.vercel.app/",
                             "image": "./assets/project/jogo_secreto.jpg",
                             "alt": "Jogo do Número Secreto",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Jogo do Número Secreto"
                         },
                         {
@@ -186,9 +186,9 @@
                             "description": "Aplicação desenvolvida com HTML, CSS e JS. Exibe card de alguns personagens do Yu-Gi-Oh, com rolagem para direita e esquerda, sendo a rolagem finita. Desenvolvido na imersão da Formação DEV.",
                             "link": "https://yu-gi-oh-chi.vercel.app/",
                             "image": "./assets/project/yu_gi_oh.jpg",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Yu-Gi-Oh"
                         },
                         {
@@ -196,10 +196,20 @@
                             "description": "Aplicação desenvolvida com React. Calcula o IMC de uma pessoa, com validações de peso e altura e apresenta o resultado em uma tabela com informações adicionais. Desenvolvido no curso Hora de Codar.",
                             "link": "https://gilvansimoes.github.io/calcular_imc/",
                             "image": "./assets/project/imc.png",
-                            "logo_lang": "fa-react",
-                            "logo_lang_2": "fa-css3",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
                             "logo_lang_3": "",
                             "text_repo": "Calcular IMC"
+                        },
+                        {
+                            "title": "Tela de login",
+                            "description": "Desenvolvido com React, CSS e Sweet Alert, simula tela de login com email e senha, alert para registrar novo usuário e recuperação de senha, checkbox para armzenar/salvar usuário para próximo login. Desenvolvido no curso Hora de Codar.",
+                            "link": "https://tela-login-omega-silk.vercel.app/",
+                            "image": "./assets/project/login.jpg",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-solid fa-circle-dot",
+                            "text_repo": "Tela Login"
                         }
                     ]
                 }
@@ -383,9 +393,9 @@
                             "link": "https://jogo-secreto-lyart.vercel.app/",
                             "image": "./assets/project/jogo_secreto.jpg",
                             "alt": "Secret Number Game",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Secret Number Game"
                         },
                         {
@@ -394,9 +404,9 @@
                             "link": "https://yu-gi-oh-chi.vercel.app/",
                             "image": "./assets/project/yu_gi_oh.jpg",
                             "alt": "Yu-Gi-Oh Game",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Yu-Gi-Oh Game"
                         },
                         {
@@ -404,10 +414,20 @@
                             "description": "Application developed with React. Calculates a person's BMI, with weight and height validations and presents the result in a table with additional information. Developed in the Hora de Codar course.",
                             "link": "https://gilvansimoes.github.io/calcular_imc/",
                             "image": "./assets/project/imc.png",
-                            "logo_lang": "fa-react",
-                            "logo_lang_2": "fa-css3",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
                             "logo_lang_3": "",
                             "text_repo": "BMI Calculator"
+                        },
+                        {
+                            "title": "Login screen",
+                            "description": "Developed with React, CSS and Sweet Alert, simulates login screen with email and password, alert to register new user and password recovery, checkbox to store/save user for next login. Developed in the Hora de Codar course.",
+                            "link": "https://tela-login-omega-silk.vercel.app/",
+                            "image": "./assets/project/login.jpg",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-solid fa-circle-dot",
+                            "text_repo": "Login"
                         }
                     ]
                 }
@@ -591,9 +611,9 @@
                             "link": "https://jogo-secreto-lyart.vercel.app/",
                             "image": "./assets/project/jogo_secreto.jpg",
                             "alt": "Juego del Número Secreto",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Juego del Número Secreto"
                         },
                         {
@@ -602,9 +622,9 @@
                             "link": "https://yu-gi-oh-chi.vercel.app/",
                             "image": "./assets/project/yu_gi_oh.jpg",
                             "alt": "Yu-Gi-Oh Juego",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Yu-Gi-Oh Juego"
                         },
                         {
@@ -612,10 +632,20 @@
                             "description": "Aplicación desarrollada con React. Calcula el IMC de una persona, con validaciones de peso y altura, y presenta el resultado en una tabla con información adicional. Desarrollado en el curso Hora de Codar.",
                             "link": "https://gilvansimoes.github.io/calcular_imc/",
                             "image": "./assets/project/imc.png",
-                            "logo_lang": "fa-react",
-                            "logo_lang_2": "fa-css3",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
                             "logo_lang_3": "",
                             "text_repo": "Calcular el IMC"
+                        },
+                        {
+                            "title": "Pantalla inicio de sesión",
+                            "description": "Desarrollado con React, CSS y Sweet Alert, simula la pantalla de inicio de sesión con correo electrónico y contraseña, alerta para registrar nuevo usuario y recuperación de contraseña, casilla de verificación para almacenar/guardar usuario para el próximo inicio de sesión. Desarrollado en el curso Hora de Codar.",
+                            "link": "https://tela-login-omega-silk.vercel.app/",
+                            "image": "./assets/project/login.jpg",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-solid fa-circle-dot",
+                            "text_repo": "Pantalla de inicio de sesión"
                         }
                     ]
                 }
@@ -799,9 +829,9 @@
                             "link": "https://jogo-secreto-lyart.vercel.app/",
                             "image": "./assets/project/jogo_secreto.jpg",
                             "alt": "Jeu du Nombre Secret",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Jeu du Nombre Secret"
                         },
                         {
@@ -810,9 +840,9 @@
                             "link": "https://yu-gi-oh-chi.vercel.app/",
                             "image": "./assets/project/yu_gi_oh.jpg",
                             "alt": "Yu-Gi-Oh Card Jeu",
-                            "logo_lang": "fa-html5",
-                            "logo_lang_2": "fa-css3",
-                            "logo_lang_3": "fa-js",
+                            "logo_lang": "fa-brands fa-html5",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-brands fa-js",
                             "text_repo": "Yu-Gi-Oh Jeu"
                         },
                         {
@@ -820,10 +850,20 @@
                             "description": "Application développée avec React. Calcule l'IMC d'une personne, avec validation du poids et de la taille, et présente le résultat dans un tableau avec des informations supplémentaires. Développé dans le cours Hora de Codar.",
                             "link": "https://gilvansimoes.github.io/calcular_imc/",
                             "image": "./assets/project/imc.png",
-                            "logo_lang": "fa-react",
-                            "logo_lang_2": "fa-css3",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
                             "logo_lang_3": "",
                             "text_repo": "Calculer l'IMC"
+                        },
+                        {
+                            "title": "Écran de connexion",
+                            "description": "Développé avec React, CSS et Sweet Alert, simule un écran de connexion avec e-mail et mot de passe, alerte pour enregistrer un nouvel utilisateur et récupération de mot de passe, case à cocher pour stocker/enregistrer l'utilisateur pour la prochaine connexion. Développé dans le cours Hora de Codar.",
+                            "link": "https://tela-login-omega-silk.vercel.app/",
+                            "image": "./assets/project/login.jpg",
+                            "logo_lang": "fa-brands fa-react",
+                            "logo_lang_2": "fa-brands fa-css3",
+                            "logo_lang_3": "fa-solid fa-circle-dot",
+                            "text_repo": "Écran de connexion"
                         }
                     ]
                 }
