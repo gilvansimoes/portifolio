@@ -91,6 +91,7 @@ let about_3 = document.getElementById('about_3');
 let about_4 = document.getElementById('about_4');
 let about_5 = document.getElementById('about_5');
 let timeline = document.getElementById('timeline');
+let timeline_formation = document.getElementById('timeline_formation');
 let main__content__titulo = document.getElementById('main__content__titulo');
 let main__content__titulo_p = document.getElementById('main__content__titulo_p');
 
@@ -207,13 +208,14 @@ function cleanAbout() {
     about_4.innerHTML = '';
     about_5.innerHTML = '';
     timeline.innerHTML = '';
+    timeline_formation.innerHTML = '';
     main__content__titulo.innerHTML = '';
     main__content__titulo_p.innerHTML = '';
 }
 function cleanProject() {
     titleProject.innerHTML = '';
     gallery.innerHTML = '';
-    
+
 }
 function dadosIndex(idioma) {
     fetch("./assets/json/dados.json", {
@@ -221,31 +223,31 @@ function dadosIndex(idioma) {
             'Accept-Language': idioma
         }
     })
-    .then(response => response.json())
-    .then((dados) => {
-        switch (idioma) {
-            case 'pt':
-                dados.pt.map(item => {
-                    buscaDados(item);
-                })
-            break;
-            case 'en':
-                dados.en.map(item => {
-                    buscaDados(item);
-                })
-            break;
-            case 'es':
-                dados.es.map(item => {
-                    buscaDados(item);
-                })
-            break;
-            case 'fr':
-                dados.fr.map(item => {
-                    buscaDados(item);
-                })
-            break;
-        }
-    })
+        .then(response => response.json())
+        .then((dados) => {
+            switch (idioma) {
+                case 'pt':
+                    dados.pt.map(item => {
+                        buscaDados(item);
+                    })
+                    break;
+                case 'en':
+                    dados.en.map(item => {
+                        buscaDados(item);
+                    })
+                    break;
+                case 'es':
+                    dados.es.map(item => {
+                        buscaDados(item);
+                    })
+                    break;
+                case 'fr':
+                    dados.fr.map(item => {
+                        buscaDados(item);
+                    })
+                    break;
+            }
+        })
 }
 
 function dadosIndex2(idioma) {
@@ -254,31 +256,31 @@ function dadosIndex2(idioma) {
             'Accept-Language': idioma
         }
     })
-    .then(response => response.json())
-    .then((dados) => {
-        switch (idioma) {
-            case 'pt':
-                dados.pt.map(item => {
-                    buscaDados2(item);
-                })
-            break;
-            case 'en':
-                dados.en.map(item => {
-                    buscaDados2(item);
-                })
-            break;
-            case 'es':
-                dados.es.map(item => {
-                    buscaDados2(item);
-                })
-            break;
-            case 'fr':
-                dados.fr.map(item => {
-                    buscaDados2(item);
-                })
-            break;
-        }
-    })
+        .then(response => response.json())
+        .then((dados) => {
+            switch (idioma) {
+                case 'pt':
+                    dados.pt.map(item => {
+                        buscaDados2(item);
+                    })
+                    break;
+                case 'en':
+                    dados.en.map(item => {
+                        buscaDados2(item);
+                    })
+                    break;
+                case 'es':
+                    dados.es.map(item => {
+                        buscaDados2(item);
+                    })
+                    break;
+                case 'fr':
+                    dados.fr.map(item => {
+                        buscaDados2(item);
+                    })
+                    break;
+            }
+        })
 }
 
 function dadosIndex3(idioma) {
@@ -287,31 +289,31 @@ function dadosIndex3(idioma) {
             'Accept-Language': idioma
         }
     })
-    .then(response => response.json())
-    .then((dados) => {
-        switch (idioma) {
-            case 'pt':
-                dados.pt.map(item => {
-                    buscaDados3(item);
-                })
-            break;
-            case 'en':
-                dados.en.map(item => {
-                    buscaDados3(item);
-                })
-            break;
-            case 'es':
-                dados.es.map(item => {
-                    buscaDados3(item);
-                })
-            break;
-            case 'fr':
-                dados.fr.map(item => {
-                    buscaDados3(item);
-                })
-            break;
-        }
-    })
+        .then(response => response.json())
+        .then((dados) => {
+            switch (idioma) {
+                case 'pt':
+                    dados.pt.map(item => {
+                        buscaDados3(item);
+                    })
+                    break;
+                case 'en':
+                    dados.en.map(item => {
+                        buscaDados3(item);
+                    })
+                    break;
+                case 'es':
+                    dados.es.map(item => {
+                        buscaDados3(item);
+                    })
+                    break;
+                case 'fr':
+                    dados.fr.map(item => {
+                        buscaDados3(item);
+                    })
+                    break;
+            }
+        })
 }
 
 function buscaDados(item) {
@@ -389,18 +391,14 @@ function buscaDados2(item) {
         if (item.about[6].titulo_p !== undefined) {
             main__content__titulo_p.innerHTML += `${item.about[6].titulo_p}`;
         }
-        if (item.about[7].timeline !== undefined) {
-            for (let i = 0; i < item.about[7].timeline.length; i++) {
-                timeline.innerHTML += `
-                ${i == 0 ? '<div class="timeline__section work">' :
-                        i == 1 ? '<div class="timeline__section work">' :
-                            i == 4 ? '<div class="timeline__section work">' :
-                                i == 10 ? '<div class="timeline__section work">' :
-                                    i == 11 ? '<div class="timeline__section work">' : '<div class="timeline__section study">'}
+        if (item.about[7].formation !== undefined) {
+            for (let i = 0; i < item.about[7].formation.length; i++) {
+                timeline_formation.innerHTML += `
+                <div class="timeline__section">
                         <div class="timeline__left">
                             <div class="timeline__date">
-                                <div class="timeline__title">${item.about[7].timeline[i].title}</div>
-                                <div class="timeline__dates">${item.about[7].timeline[i].year}</div>
+                                <div class="timeline__title">${item.about[7].formation[i].title}</div>
+                                <div class="timeline__dates">${item.about[7].formation[i].year}</div>
                             </div>
                         </div>
                         <div class="timeline__tracker">
@@ -410,16 +408,43 @@ function buscaDados2(item) {
                             <div class="timeline__bullet"></div>
                         </div>
                         <div class="timeline__right">
-                        ${i == 0 ? '<div class="work">' :
-                        i == 1 ? '<div class="work">' :
-                            i == 4 ? '<div class="work">' :
-                                i == 10 ? '<div class="work">' :
-                                    i == 11 ? '<div class="work">' : '<div class="study">'}
+                            <div class="work">
                                 <div class="timeline__content">
-                                    ${item.about[7].timeline[i].description}
+                                    ${item.about[7].formation[i].description}
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                `;
+            }
+        }
+        if (item.about[8].timeline !== undefined) {
+            for (let i = 0; i < item.about[8].timeline.length; i++) {
+                timeline.innerHTML += `
+                    <div class="timeline__section">
+                        <div class="timeline__left">
+                            <div class="timeline__date">
+                                <div class="timeline__title">${item.about[8].timeline[i].title}</div>
+                                <div class="timeline__dates">${item.about[8].timeline[i].year}</div>
+                            </div>
+                        </div>
+                        <div class="timeline__tracker">
+                            <div class="tracker"></div>
+                        </div>
+                        <div class="timeline__middle">
+                            <div class="timeline__bullet"></div>
+                        </div>
+                        <div class="timeline__right">
+                        <div class="work">
+                                <div class="timeline__content">
+                                    ${item.about[8].timeline[i].description}
+                                </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
                     </div>
                 `;
             }
@@ -429,9 +454,9 @@ function buscaDados2(item) {
 
 function buscaDados3(item) {
     titleProject.innerHTML += `${item.project[0].tituloProject}`;
-    
+
     if (item.project[1].dadosProject[0].title !== undefined) {
-        item.project[1].dadosProject.forEach(function(element) {
+        item.project[1].dadosProject.forEach(function (element) {
             gallery.innerHTML += `
             <div class="gallery-item">
                 <img src="${element.image}" alt="${element.title}">

@@ -7,7 +7,7 @@
     border-radius: 7px;
 }
 .aboutContent {
-    width: 100%;
+    width: 40%;
     height: 80vh;
 }
 .aboutTitle {
@@ -37,8 +37,24 @@
     font-family: var(--montserrat-font);
     margin-bottom: 1em;
     text-align: justify;
-    hyphens: auto;
-    text-indent: 2em;
+}
+
+.container {
+    width: 100%;
+}
+.subContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.aboutTrajetory {
+    display: block;
+    max-width: 75%;
+}
+.containerMiddle {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .timeline {
@@ -101,9 +117,12 @@
     );
 }
 
+.work {
+    background-color: white;
+}
+
 .timeline__right > div {
     padding-bottom: var(--buffer);
-    /*padding-left: 10px;*/
     margin-left: 4px;
 }
 
@@ -150,20 +169,6 @@
     color: var(--color-white);
 }
 
-.study {
-    background-color: var(--branco-color);
-}
-
-.work {
-    background-color: var(--dfdcdc);
-}
-.works {
-    background-color: var(--dfdcdc);
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
 @media (max-width: 1200px) {
     .nav a {
         font-size: 1.5em;
@@ -183,7 +188,6 @@
     }
     .sectionAbout{
         width: auto;
-        /*padding: 0.5em 0.8em;*/
         text-align: justify;
         hyphens: auto;
         word-spacing: -0.05em;
@@ -203,6 +207,12 @@
         border-radius: 10px 10px 0 0;
     }
     .timeline__left {
-        width: 90px;
+        width: 120px;
+    }
+    .containerMiddle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0;
     }
 }

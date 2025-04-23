@@ -30,6 +30,8 @@
 .section .paragrafo {
     font-size: 1.6em;
     margin-top: .8em;
+    text-align: justify;
+    hyphens: auto;
 }
 .curriculo .aCurriculo {
     list-style: none;
@@ -60,9 +62,6 @@
 }
 .txt {
     animation: scroll-auto 7s ease-in-out infinite;
-}
-.strong {
-    font-weight: bold;
 }
 @keyframes scroll-auto {
     0%, 20% {
@@ -221,6 +220,7 @@ svg {
     transform: scale(1.5) translateZ(50px);
     color: #fff;
 }
+
 path {
     display: none;
 }  

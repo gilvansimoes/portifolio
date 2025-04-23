@@ -79,52 +79,37 @@
             ],
             "about": [
                 {
-                    "about_1": "Olá! Sou Gilvan Simões, desenvolvedor Full Stack e uma coisa que amo na vida é criar e entregar experiências. Trabalho com desenvolvimento desde 2017, iniciei como desenvolvedor Back-End com PHP criando sites e aplicações web."
+                    "about_1": "Sou apaixonado e dedicado a criar e entregar experiências digitais que gerem valor real. Desde 2017, desenvolvo aplicações web robustas e escaláveis, iniciando minha carreira como desenvolvedor <span class='strong'>Back-End</span> especializado em <span class='strong'>PHP</span>."
                 },
                 {
-                    "about_2": "Me considero um profissional bem capacitado, versátil e ágil. Estou sempre curioso para aprender mais quando se trata de novas tecnologias e codificação criativa."
+                    "about_2": "Graduado em Sistemas de Informação pela Unifacs (Universidade de Salvador), minha jornada na programação começou em 2010 com uma base em Lógica de Programação."
                 },
                 {
-                    "about_3": "Graduado em Sistemas de Informação - Unifacs(Universidade Salvador) em Feira de Santana - Bahia."
+                    "about_3": "Ao longo dos anos, expandi minha experiência em diversas linguagens e tecnologias, incluindo <span class='strong'>Pascal</span>, <span class='strong'>C</span>, <span class='strong'>C++</span>, <span class='strong'>Java</span>, bancos de dados (<span class='strong'>PostgreSQL</span>, <span class='strong'>MySQL</span>, <span class='strong'>SQLite</span>), <span class='strong'>PHP</span>, <span class='strong'>HTML</span>, <span class='strong'>CSS</span> e <span class='strong'>JavaScript</span>."
                 },
                 {
-                    "about_4": "Na disciplina de Logica de Programação em 2010, foi o despertar para o mundo da programação. Conforme progredia com Pascal, C, C++, Java, Banco de dados(PostgreSQL, MySQL, SQLite), PHP e linguagem para Web decidi me dedicar a programação."
+                    "about_4": "Conhecido pela minha versatilidade e agilidade, estou comprometido com o aprendizado contínuo e prospero na resolução de desafios complexos com soluções inovadoras e criativas."
                 },
                 {
-                    "about_5": "Comecei aprofundando em HTML, CSS, PHP e JavaScript com cursos online."
+                    "about_5": "Estou ansioso para aproveitar minhas habilidades técnicas e paixão pela inovação para contribuir com projetos que exigem excelência e geram impacto mensurável."
                 },
                 {
-                    "titulo": "Trajetória"
+                    "titulo": "Formação"
                 },
                 {
-                    "titulo_p": "Carreira / Formação"
+                    "titulo_p": "Carreira"
                 },
                 {
-                    "timeline": [
-                        {
-                            "title": "Primeiro Emprego",
-                            "year": "2007",
-                            "description": "Início na Dass Nordeste & Artigos Esportivos no cargo de Multioperador, costurando biqueira e traseiro de tênis das marcas Nike e Fila."
-                        },
-                        {
-                            "title": "PPCP",
-                            "year": "2010",
-                            "description": "Promovido a assistente de PPCP (Programacao Planejamento e Controle da Produção), planejando e controlando a produção, elaboração e impressão de rótulos e etiquetas, relatórios e dashboards em Excel."
-                        },
-                        {
+                    "formation": [
+                                                {
                             "title": "Sistemas de Informação",
                             "year": "2010",
                             "description": "Início da graduação na universidade Salvador(Unifacs) em Feira de Santana."
                         },
-                        {
+                                                {
                             "title": "ALGOL e Pascal",
                             "year": "2011",
                             "description": "Início da disciplina de Logica de Programação e Pascal."
-                        },
-                        {
-                            "title": "Suporte Técnico",
-                            "year": "2012",
-                            "description": "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidores NVR e câmeras IP, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
                         },
                         {
                             "title": "C e C++",
@@ -150,6 +135,25 @@
                             "title": "JavaScript",
                             "year": "2016",
                             "description": "Curso de JavaScript do básico ao avançado,fundamentos da linguagem, introdução ao JavaScript e sua história, manipulação de DOM, eventos, funções, programação assíncrona, conceitos de objetos, modularização, introdução a biblioteca React, framework Angular e Node.js execução do JavaScript no lado do servidor."
+                        }
+                    ]
+                },
+                {
+                    "timeline": [
+                        {
+                            "title": "Primeiro Emprego",
+                            "year": "2007",
+                            "description": "Início na Dass Nordeste & Artigos Esportivos no cargo de Multioperador, costurando biqueira e traseiro de tênis das marcas Nike e Fila."
+                        },
+                        {
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promovido a assistente de PPCP (Programacao Planejamento e Controle da Produção), planejando e controlando a produção, elaboração e impressão de rótulos e etiquetas, relatórios e dashboards em Excel."
+                        },
+                        {
+                            "title": "Suporte Técnico",
+                            "year": "2012",
+                            "description": "Promovido a técnico de suporte prestando atendimento via acesso remoto e presencial, manutenção em Desktop, thinclient, notebook, impressoras, central telefônica, servidores NVR e câmeras IP, servidor VoIp, switchs gerenciávies, Vlans, pacotes office, gateway e firewalls."
                         },
                         {
                             "title": "Automação de Processos",
@@ -296,38 +300,28 @@
             ],
             "about": [
                 {
-                    "about_1": "Hello! I'm Gilvan Simões, a Full Stack developer and one thing I love in life is creating and delivering experiences. I've been working with development since 2017, I started as a Back-End developer with PHP creating websites and web applications."
+                    "about_1": "I am passionate and dedicated to  creating and delivering digital experiences that drive real value. Since 2017, I have built robust and scalable web applications, starting my career as a <span class='strong'>Back-End</span> developer specializing in <span class='strong'>PHP</span>."
                 },
                 {
-                    "about_2": "I consider myself a professional but capable, versatile and agile. It's always interesting to learn but when it comes to new technologies and creative coding."
+                    "about_2": "Graduated in Information Systems from Unifacs (Salvador University), my programming journey began in 2010 with a foundation in Programming Logic."
                 },
                 {
-                    "about_3": "Graduated in Information Systems - Unifacs(Universidade Salvador) in Feira de Santana - Bahia."
+                    "about_3": "Over the years, I have expanded my expertise across multiple languages and technologies, including <span class='strong'>Pascal</span>, <span class='strong'>C</span>, <span class='strong'>C++</span>, <span class='strong'>Java</span>, databases (<span class='strong'>PostgreSQL</span>, <span class='strong'>MySQL</span>, <span class='strong'>SQLite</span>), <span class='strong'>PHP</span>, <span class='strong'>HTML</span>, <span class='strong'>CSS</span>, and <span class='strong'>JavaScript</span>."
                 },
                 {
-                    "about_4": "In the Programming Logic class in 2010, I was awakened to the world of programming. As I progressed with Pascal, C and C++, Java, Databases (PostgreSQL, MySQL, SQLite), PHP and Web languages, I decided to dedicate myself to programming."
+                    "about_4": "Known for my versatility and agility, I am committed to continuous learning and thrive on solving complex challenges with innovative and creative solutions."
                 },
                 {
-                    "about_5": "I started delving deeper into HTML, CSS, PHP and JavaScript with online courses."
+                    "about_5": "I am eager to leverage my technical skills and passion for innovation to contribute to projects that demand excellence and deliver measurable impact."
                 },
                 {
-                    "titulo": "Trajectory"
+                    "titulo": "Formation"
                 },
                 {
-                    "titulo_p": "Career / Formation"
+                    "titulo_p": "Career"
                 },
                 {
-                    "timeline": [
-                        {
-                            "title": "First Job",
-                            "year": "2007",
-                            "description": "Started at Dass Nordeste & Artigos Esportivos as a Multi-Operator, sewing the toe caps and backs of Nike and Fila brand sneakers."
-                        },
-                        {
-                            "title": "PPCP",
-                            "year": "2010",
-                            "description": "Promoted to PPCP (Production Planning and Control Programming) assistant, planning and controlling production, preparation and printing of labels and tags, reports and dashboards in Excel."
-                        },
+                    "formation":[
                         {
                             "title": "Information Systems",
                             "year": "2010",
@@ -337,11 +331,6 @@
                             "title": "ALGOL and Pascal",
                             "year": "2011",
                             "description": "Start of the Programming Logic and Pascal course."
-                        },
-                        {
-                            "title": "Technical Support",
-                            "year": "2012",
-                            "description": "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, NVR servers and IP cameras, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
                         },
                         {
                             "title": "C and C++",
@@ -366,7 +355,26 @@
                         {
                             "title": "JavaScript",
                             "year": "2016",
-                            "description": "JavaScript course from basic to advanced, language fundamentals, introduction to JavaScript and its history, DOM manipulation, events, functions, asynchronous programming, object concepts, modularization, introduction to the React library, Angular framework and Node.js, execution of JavaScript on the server side."
+                            "description": "JavaScript course from basic to advanced, language fundamentals, introduction to JavaScript and its history, DOM manipulation, events, functions, asynchronous programming, object concepts, modularization, introduction to the React library, Angular framework and Node.js execution of JavaScript on the server side."
+                        }
+                    ]
+                },
+                {
+                    "timeline": [
+                        {
+                            "title": "First Job",
+                            "year": "2007",
+                            "description": "Started at Dass Nordeste & Artigos Esportivos as a Multi-Operator, sewing the toe caps and backs of Nike and Fila brand sneakers."
+                        },
+                        {
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promoted to PPCP (Production Planning and Control Programming) assistant, planning and controlling production, preparation and printing of labels and tags, reports and dashboards in Excel."
+                        },
+                        {
+                            "title": "Technical Support",
+                            "year": "2012",
+                            "description": "Promoted to support technician providing assistance via remote and in-person access, maintenance on Desktop, thinclient, notebook, printers, telephone exchange, NVR servers and IP cameras, VoIP server, managed switches, VLANs, office packages, gateway and firewalls."
                         },
                         {
                             "title": "Process Automation",
@@ -514,38 +522,28 @@
             ],
             "about": [
                 {
-                    "about_1": "¡Hola! Soy Gilvan Simões, un desarrollador Full Stack y una de las cosas que amo en la vida es crear y entregar experiencias. He estado trabajando con desarrollo desde 2017, comencé como desarrollador Back-End con PHP creando sitios web y aplicaciones web."
+                    "about_1": "Me apasiona y me dedico a crear y ofrecer experiencias digitales que aporten valor real. Desde 2017, he desarrollado aplicaciones web robustas y escalables, comenzando mi carrera como desarrollador <span class='strong'>Back-End</span> especializado en <span class='strong'>PHP</span>."
                 },
                 {
-                    "about_2": "Me considero un profesional altamente cualificado, versátil y ágil. Siempre tengo curiosidad por aprender más cuando se trata de nuevas tecnologías y codificación creativa."
+                    "about_2": "Licenciado en Sistemas de Información por la Unifacs (Universidad del Salvador), mi camino en programación comenzó en 2010 con una base en Lógica de Programación."
                 },
                 {
-                    "about_3": "Graduado en Sistemas de Información - Unifacs(Universidad Salvador) en Feira de Santana - Bahia."
+                    "about_3": "A lo largo de los años, he ampliado mi experiencia en múltiples lenguajes y tecnologías, incluidos <span class='strong'>Pascal</span>, <span class='strong'>C</span>, <span class='strong'>C++</span>, <span class='strong'>Java</span>, bases de datos (<span class='strong'>PostgreSQL</span>, <span class='strong'>MySQL</span>, <span class='strong'>SQLite</span>), <span class='strong'>PHP</span>, <span class='strong'>HTML</span>, <span class='strong'>CSS</span> y <span class='strong'>JavaScript</span>."
                 },
                 {
-                    "about_4": "En el curso de Lógica de Programación del año 2010, fue el despertar al mundo de la programación. A medida que fui avanzando con Pascal, C y C++, Java, Bases de Datos (PostgreSQL, MySQL, SQLite), PHP y lenguajes Web, decidí dedicarme a la programación."
+                    "about_4": "Conocido por mi versatilidad y agilidad, estoy comprometido con el aprendizaje continuo y me entusiasma resolver desafíos complejos con soluciones innovadoras y creativas."
                 },
                 {
-                    "about_5": "Comencé a profundizar en HTML, CSS, PHP y JavaScript con cursos en línea."
+                    "about_5": "Estoy ansioso por aprovechar mis habilidades técnicas y mi pasión por la innovación para contribuir a proyectos que exigen excelencia y generan un impacto medible."
                 },
                 {
-                    "titulo": "Trayectoria"
+                    "titulo": "Formación"
                 },
                 {
-                    "titulo_p": "Carrera / Formación"
+                    "titulo_p": "Carrera"
                 },
                 {
-                    "timeline": [
-                        {
-                            "title": "Primer trabajo",
-                            "year": "2007",
-                            "description": "Comenzó en Dass Nordeste & Artigos Esportivos como Multi-Operador, cosiendo las punteras y la parte trasera de las zapatillas de las marcas Nike y Fila."
-                        },
-                        {
-                            "title": "PPCP",
-                            "year": "2010",
-                            "description": "Promovido a asistente de PPCP (Programación de Planificación y Control de Producción), planificación y control de producción, preparación e impresión de etiquetas y rótulos, informes y cuadros de mando en Excel."
-                        },
+                    "formation":[
                         {
                             "title": "Sistemas de Información",
                             "year": "2010",
@@ -555,11 +553,6 @@
                             "title": "ALGOL y Pascal",
                             "year": "2011",
                             "description": "Inicio del curso de Lógica de Programación y Pascal."
-                        },
-                        {
-                            "title": "Apoyo Técnico",
-                            "year": "2012",
-                            "description": "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidores NVR y cámaras IP, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
                         },
                         {
                             "title": "C y C++",
@@ -585,6 +578,25 @@
                             "title": "JavaScript",
                             "year": "2016",
                             "description": "Curso de JavaScript desde básico a avanzado, fundamentos del lenguaje, introducción a JavaScript y su historia, manipulación del DOM, eventos, funciones, programación asíncrona, conceptos de objetos, modularización, introducción a la librería React, framework Angular y Node.js, ejecución de JavaScript en el lado del servidor."
+                        }
+                    ]
+                },
+                {
+                    "timeline": [
+                        {
+                            "title": "Primer trabajo",
+                            "year": "2007",
+                            "description": "Comenzó en Dass Nordeste & Artigos Esportivos como Multi-Operador, cosiendo las punteras y la parte trasera de las zapatillas de las marcas Nike y Fila."
+                        },
+                        {
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promovido a asistente de PPCP (Programación de Planificación y Control de Producción), planificación y control de producción, preparación e impresión de etiquetas y rótulos, informes y cuadros de mando en Excel."
+                        },
+                        {
+                            "title": "Apoyo Técnico",
+                            "year": "2012",
+                            "description": "Ascendido a técnico de soporte que brinda asistencia mediante acceso remoto y en persona, mantenimiento de computadoras de escritorio, thinclient, notebook, impresoras, central telefónica, servidores NVR y cámaras IP, servidor VoIP, conmutadores administrados, VLAN, paquetes de oficina, puerta de enlace y firewalls."
                         },
                         {
                             "title": "Automatización de Procesos",
@@ -732,57 +744,42 @@
             ],
             "about": [
                 {
-                    "about_1": "Bonjour! Je suis Gilvan Simões, développeur Full Stack et une chose que j'aime dans la vie, c'est créer et proposer des expériences.Je travaille dans le développement depuis 2017, en commençant comme développeur Back-End avec PHP créant des sites Web et des applications Web."
+                    "about_1": "Je suis passionné et dévoué à la création et à la diffusion d'expériences numériques à forte valeur ajoutée. Depuis 2017, je développe des applications web robustes et évolutives, en commençant ma carrière comme développeur <span class='strong'>Back-End</span> spécialisé en <span class='strong'>PHP</span>."
                 },
                 {
-                    "about_2": "Je me considère comme un professionnel bien formé, polyvalent et agile. Je suis toujours curieux d'en savoir plus en matière de nouvelles technologies et de codage créatif."
+                    "about_2": "Diplômé en systèmes d'information de l'Unifacs (Université de Salvador), mon parcours de programmation a commencé en 2010 avec une base en logique de programmation."
                 },
                 {
-                    "about_3": "Gradué en Systèmes d'Information - Unifacs(Université Salvador) à Feira de Santana - Bahia."
+                    "about_3": "Au fil des années, j'ai élargi mon expertise dans plusieurs langages et technologies, notamment <span class='strong'>Pascal</span>, <span class='strong'>C</span>, <span class='strong'>C++</span>, <span class='strong'>Java</span>, les bases de données (<span class='strong'>PostgreSQL</span>, <span class='strong'>MySQL</span>, <span class='strong'>SQLite</span>), <span class='strong'>PHP</span>, <span class='strong'>HTML</span>, <span class='strong'>CSS</span> et <span class='strong'>JavaScript</span>."
                 },
                 {
-                    "about_4": "Dans le cours de Logique de Programmation en 2010, ce fut l'éveil au monde de la programmation. Au fur et à mesure de mes progrès en Pascal, C et C++, Java, les bases de données (PostgreSQL, MySQL, SQLite), PHP et les langages Web, j'ai décidé de me consacrer à la programmation."
+                    "about_4": "Reconnu pour ma polyvalence et mon agilité, je m'engage à apprendre continuellement et j'aime résoudre des défis complexes avec des solutions innovantes et créatives."
                 },
                 {
-                    "about_5": "J'ai commencé à approfondir mes connaissances en HTML, CSS, PHP et JavaScript avec des cours en ligne."
+                    "about_5": "Je suis impatient de mettre à profit mes compétences techniques et ma passion pour l’innovation pour contribuer à des projets qui exigent l’excellence et produisent un impact mesurable."
                 },
                 {
-                    "titulo": "Trajectoire"
+                    "titulo": "Entraînement"
                 },
                 {
-                    "titulo_p": "Carrière / Entraînement"
+                    "titulo_p": "Carrière"
                 },
                 {
-                    "timeline": [
-                        {
-                            "title": "Premier Emploi",
-                            "year": "2007",
-                            "description": "J'ai commencé chez Dass Nordeste & Artigos Esportivos en tant que multi-opérateur, cousant les embouts et les arrières des baskets des marques Nike et Fila."
-                        },
-                        {
-                            "title": "PPCP",
-                            "year": "2010",
-                            "description": "Promu assistant PPCP (Production Planning et Control Programming), planification et contrôle de la production, préparation et impression d'étiquettes et de tags, rapports et tableaux de bord sous Excel."
-                        },
+                    "formation": [
                         {
                             "title": "Systèmes d'Information",
                             "year": "2010",
-                            "description": "Début des études à l'Université de Salvador (Unifacs) à Feira de Santana."
+                            "description": "Début de la formation à l'Université de Salvador (Unifacs) à Feira de Santana."
                         },
                         {
                             "title": "ALGOL et Pascal",
                             "year": "2011",
-                            "description": "Début du cours Programmation Logique et Pascal."
-                        },
-                        {
-                            "title": "Support Technique",
-                            "year": "2012",
-                            "description": "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, serveurs NVR et caméras IP, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
+                            "description": "Début du cours de logique de programmation et Pascal."
                         },
                         {
                             "title": "C et C++",
                             "year": "2012",
-                            "description": "Fondamentaux de la programmation, manipulation de la mémoire et gestion avancée de la mémoire, structures de données simples, introduction au système d'exploitation, algorithmes et efficacité, programmation orientée objet (OOP), bibliothèques standard (STL), conception et architecture de logiciels, programmation générique et multithreading et parallélisme."
+                            "description": "Fondamentaux de la programmation, manipulation de la mémoire et gestion avancée de la mémoire, structures de données simples, introduction au système d'exploitation, algorithmes et efficacité, programmation orientée objet (POO), bibliothèques standard (STL), conception et architecture de logiciels, programmation générique et multithreading et parallélisme."
                         },
                         {
                             "title": "Java",
@@ -803,6 +800,25 @@
                             "title": "JavaScript",
                             "year": "2016",
                             "description": "Cours JavaScript du basique au avancé, fondamentaux du langage, introduction à JavaScript et son histoire, manipulation DOM, événements, fonctions, programmation asynchrone, concepts d'objets, modularisation, introduction à la bibliothèque React, framework Angular et Node.js, exécution de JavaScript côté serveur."
+                        }
+                    ]
+                },
+                {
+                    "timeline": [
+                        {
+                            "title": "Premier Emploi",
+                            "year": "2007",
+                            "description": "J'ai commencé chez Dass Nordeste & Artigos Esportivos en tant que multi-opérateur, cousant les embouts et les arrières des baskets des marques Nike et Fila."
+                        },
+                        {
+                            "title": "PPCP",
+                            "year": "2010",
+                            "description": "Promu assistant PPCP (Production Planning et Control Programming), planification et contrôle de la production, préparation et impression d'étiquettes et de tags, rapports et tableaux de bord sous Excel."
+                        },
+                        {
+                            "title": "Support Technique",
+                            "year": "2012",
+                            "description": "Promu pour soutenir les techniciens fournissant une assistance via un accès à distance et en personne, une maintenance sur les ordinateurs de bureau, les clients légers, les ordinateurs portables, les imprimantes, les centraux téléphoniques, serveurs NVR et caméras IP, les serveurs VoIP, les commutateurs gérés, les VLAN, les packages bureautiques, les passerelles et les pare-feu."
                         },
                         {
                             "title": "Automatisation des Processus",

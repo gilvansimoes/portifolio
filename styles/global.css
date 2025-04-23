@@ -159,6 +159,10 @@ body.night .timeline_right > div {
     margin-bottom: 4px;
 }
 
+.strong {
+    font-weight: bold;
+}
+
 footer{
     display: flex;
     justify-content: center;
